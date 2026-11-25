@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>ANVAR ENGLISH PRO</title>
+<style>
+:root{--bg:#0b1220;--panel:#121d30;--panel2:#19263b;--line:#263650;--text:#eef4ff;--muted:#9aabc4;--green:#55dda1;--blue:#77a8ff;--yellow:#ffd166;--red:#ff7b87}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0%,#193653 0,transparent 34%),var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+button{font:inherit;cursor:pointer;border:0}.app{max-width:1180px;margin:auto;padding:20px}.top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:22px}.brand{display:flex;align-items:center;gap:12px}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,#45d99a,#4f8cff);display:grid;place-items:center;color:#081526;font-weight:900;font-size:20px}.brand h1{font-size:18px;letter-spacing:.8px;margin:0}.brand small{color:var(--muted)}.profile{border:1px solid var(--line);border-radius:30px;padding:8px 13px;color:var(--muted);font-size:13px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.hero{background:linear-gradient(115deg,#173c4a,#1b2b4a 65%,#29264a);border:1px solid #31516a;border-radius:24px;padding:26px;display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:18px}.hero h2{font-size:clamp(24px,4vw,34px);line-height:1.15;margin:5px 0 9px}.hero p{color:#c4d3e7;margin:0;max-width:560px}.eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:1.5px}.level{min-width:125px;text-align:center;background:#0b1729a8;border:1px solid #426078;border-radius:18px;padding:16px}.level strong{display:block;font-size:26px;color:var(--green)}.level span{font-size:12px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:17px}.stat span{display:block;color:var(--muted);font-size:12px}.stat b{font-size:23px}.layout{display:grid;grid-template-columns:230px 1fr;gap:16px}.nav{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:10px;height:max-content;position:sticky;top:12px}.nav button{width:100%;text-align:left;color:var(--muted);background:transparent;padding:12px;border-radius:12px;margin:2px 0}.nav button.active,.nav button:hover{background:var(--panel2);color:var(--text)}.nav button span{margin-right:9px}.content{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:2px 0 14px}.section-head h2{margin:0;font-size:22px}.muted{color:var(--muted)}.course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.lesson{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:17px;display:flex;gap:13px;align-items:flex-start}.lesson .num{width:38px;height:38px;flex:0 0 38px;border-radius:12px;background:#20334b;display:grid;place-items:center;color:var(--green);font-weight:800}.lesson h3{font-size:16px;margin:0 0 4px}.lesson p{font-size:13px;color:var(--muted);margin:0 0 11px}.pill{display:inline-block;font-size:11px;color:#b8c9df;background:#22344b;padding:4px 8px;border-radius:30px}.primary{background:linear-gradient(135deg,#50dda0,#72b6ff);color:#071526;padding:10px 15px;border-radius:11px;font-weight:800}.secondary{background:#24354c;color:var(--text);padding:9px 13px;border-radius:10px}.ghost{background:transparent;color:var(--muted);padding:8px}.lesson button{font-size:13px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}.word-list{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin:14px 0}.word{background:#1a2a40;padding:12px;border-radius:12px}.word b{display:block}.word small{color:var(--muted)}.progress{height:8px;background:#263650;border-radius:20px;overflow:hidden}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--blue));width:0}.question{padding:16px 0;border-bottom:1px solid var(--line)}.question:last-child{border:0}.question h3{font-size:16px;margin:0 0 10px}.option{display:block;width:100%;text-align:left;background:#1a2a40;color:var(--text);padding:11px 13px;border-radius:10px;margin:7px 0;border:1px solid transparent}.option.selected{border-color:var(--blue);background:#233b5b}.option.correct{border-color:var(--green)}.option.wrong{border-color:var(--red)}.result{padding:14px;border-radius:12px;background:#193b35;margin-top:14px}.hidden{display:none!important}.footer{text-align:center;color:#7488a5;font-size:12px;padding:25px}
+@media(max-width:760px){.app{padding:13px}.hero{padding:20px}.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.nav{position:static;display:flex;overflow:auto;gap:3px}.nav button{white-space:nowrap;width:auto}.course-grid{grid-template-columns:1fr}.level{min-width:90px}.level strong{font-size:21px}.word-list{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="app">
+<header class="top"><div class="brand"><div class="logo">A</div><div><h1>ANVAR ENGLISH PRO</h1><small>Ingliz tilini bosqichma-bosqich o‘rganing</small></div></div><div class="profile"><span id="profilePill">👤 Mehmon</span><button class="ghost" style="padding:2px 6px;font-size:12px" onclick="renameUser()" title="Ismni o‘zgartirish">✏️</button><button class="secondary" style="padding:5px 10px;font-size:12px;border-radius:20px" onclick="openPersonaModal()">🎭 <span id="personaBadge">Mehribon</span></button><button class="ghost" style="padding:2px 7px;font-size:12px" onclick="openOnboarding(true)" title="7 ta savolli so‘rovnoma">🧭</button></div></header>
+<section class="hero"><div><div class="eyebrow" id="heroGoalEyebrow">SIZNING SHAXSIY INGLIZ TILI KURSingiz</div><h2>Har kuni oz-ozdan,<br>katta natijaga! 🚀</h2><p id="heroSubText">O‘qish va ish uchun ingliz tilini noldan o‘rganing. Darslarni bajaring, testlardan o‘ting va natijangizni kuzating.</p></div><div class="level"><strong id="heroProgress">0%</strong><span>Umumiy natija</span></div></section>
+<div class="stats"><div class="stat"><span>📚 Tugatilgan darslar</span><b id="doneStat">0 / 8</b></div><div class="stat"><span>⭐ To‘plangan ball</span><b id="pointsStat">0</b></div><div class="stat"><span>🧠 O‘rganilgan so‘zlar</span><b id="wordsStat">0</b></div><div class="stat"><span>🔥 Kunlik maqsad</span><b id="dailyGoalStat">60 min</b></div></div>
+<div class="layout"><nav class="nav">
+<button class="active" data-view="home"><span>🏠</span> Bosh sahifa</button><button data-view="lessons"><span>📚</span> Darslar</button><button data-view="plan"><span>🗓️</span> 30 kunlik reja</button><button data-view="vocab"><span>🔤</span> So‘zlar</button><button data-view="quiz"><span>📝</span> Test</button><button data-view="chat"><span>🤖</span> AI suhbat</button><button data-view="pronunciation"><span>🎙️</span> Talaffuz</button><button data-view="progress"><span>📈</span> Natijalar</button>
+</nav><main class="content">
+<section id="home" class="view"><div class="section-head"><div><h2>Bugungi o‘quv rejangiz</h2><div class="muted" id="homePlanMeta">Kuniga 1 soat · Boshlang‘ich A1 daraja</div></div><button class="primary" onclick="showView('lessons')">Darsni boshlash →</button></div><div class="panel"><b id="homeDailyTitle">60 daqiqalik mashg‘ulot</b><div class="muted" id="homeDailySplit" style="font-size:13px;margin:5px 0 13px">10 daqiqa so‘z · 15 daqiqa grammatika · 15 daqiqa speaking · 10 daqiqa listening · 10 daqiqa test</div><div class="progress"><i id="homeBar"></i></div><p class="muted" id="homeProgressText" style="font-size:13px;margin-bottom:0">Hozircha dars boshlanmadi.</p></div><div id="onboardingSummaryCard" class="panel hidden" style="margin-top:14px;background:linear-gradient(120deg,#13243b,#192b46)"></div><div class="section-head" style="margin-top:22px"><h2>Davom ettirish</h2></div><div id="continueCard" class="lesson"></div><div id="continueTeacher" class="lesson" style="margin-top:12px"></div></section>
+<section id="lessons" class="view hidden"><div class="section-head"><div><h2>Barcha darslar</h2><div class="muted">A1 Beginner · 8 ta boshlang‘ich dars</div></div></div><div class="course-grid" id="lessonGrid"></div></section>
+<section id="lessonDetail" class="view hidden"><button class="ghost" onclick="showView('lessons')">← Darslarga qaytish</button><div id="lessonBody"></div></section>
+<section id="plan" class="view hidden"><div class="section-head"><div><h2>🗓️ Birinchi 30 kunlik reja</h2><div class="muted" id="planSubMeta">Har kuni 1 soat · Noldan boshlovchilar uchun</div></div></div>
+<div class="panel" style="margin-bottom:14px"><b>30 kunlik maqsad</b><p class="muted" style="margin:5px 0 12px">Alifbodan boshlab, oddiy suhbat va kundalik hayot haqida gapirishgacha bosqichma-bosqich o‘rganing.</p><div class="progress"><i id="planBar"></i></div><small class="muted" id="planCount">0 / 30 kun bajarildi</small></div>
+<div id="planWeeks"></div>
+</section>
+<section id="vocab" class="view hidden"><div class="section-head"><div><h2>So‘zlar lug‘ati</h2><div class="muted">Inglizcha so‘z va o‘zbekcha tarjimasi</div></div></div><div class="panel"><input id="wordSearch" placeholder="So‘z qidirish..." style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:#0d192a;color:white" oninput="renderWords()"><div class="word-list" id="wordList"></div></div></section>
+<section id="quiz" class="view hidden"><div class="section-head"><div><h2>Bilimingizni tekshiring</h2><div class="muted">10 ta savol · Har bir to‘g‘ri javob 10 ball</div></div></div><div class="panel"><div id="quizArea"></div><button class="primary" id="submitQuiz" onclick="submitQuiz()">Testni tekshirish</button><div id="quizResult"></div></div></section>
+<section id="chat" class="view hidden"><div class="section-head"><div><h2>🤖 Inglizcha suhbat mashqi</h2><div class="muted">Savollarga ingliz tilida javob bering va tarjimasini ko‘ring</div></div><button class="secondary" onclick="openPersonaModal()">🎭 Repetitor: <b id="chatPersonaLabel">Mehribon</b></button></div>
+<div class="panel">
+<div class="result" style="background:#183449"><b>AI holati</b><p style="margin:5px 0 0" id="aiModeText">AI server ulanmagan — hozir tayyor javobli mashq rejimi ishlayapti. Haqiqiy sun’iy intellekt bilan suhbat uchun quyiga server manzilini kiriting (server.js faylga qarang).</p></div>
+<div id="chatMessages" style="height:300px;overflow:auto;padding:12px;background:#0d192a;border-radius:14px;margin:14px 0">
+<div style="max-width:88%;background:#20334b;padding:11px 13px;border-radius:13px;margin:5px 0 10px">Hello, Anvar! 👋<br>What is your name? <small style="color:#a9bad0;display:block;margin-top:5px">Salom, Anvar! Ismingiz nima?</small></div>
+</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+<button class="secondary" onclick="chatQuick('My name is Anvar.')">My name is Anvar</button>
+<button class="secondary" onclick="chatQuick('I am from Uzbekistan.')">I am from Uzbekistan</button>
+<button class="secondary" onclick="chatQuick('I am a student.')">I am a student</button>
+</div>
+<div style="display:flex;gap:8px">
+<input id="chatInput" placeholder="Inglizcha javobingizni yozing..." style="min-width:0;flex:1;padding:12px;border-radius:10px;border:1px solid var(--line);background:#0d192a;color:white" onkeydown="if(event.key==='Enter')sendChat()">
+<button class="primary" onclick="sendChat()">Yuborish</button>
+</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:9px;align-items:center">
+<button class="primary" onclick="openVoiceMode()">🎧 Jonli ovozli suhbat</button><button class="secondary" onclick="startSpeechInput()">🎙️ Ovoz bilan aytish</button>
+<button class="secondary" onclick="speakLastReply()">🔊 Javobni eshitish</button>
+<button class="ghost" onclick="resetChat()">Suhbatni yangilash</button>
+</div><p id="speechStatus" class="muted" style="font-size:12px;margin-bottom:0">Ovozli kiritish brauzeringiz qo‘llab-quvvatlashiga bog‘liq.</p>
+</div></section>
+<section id="pronunciation" class="view hidden">
+<div class="section-head"><div><h2>🎙️ Inglizcha talaffuz mashqi</h2><div class="muted">Eshiting, ovoz chiqarib takrorlang va mikrofon orqali tekshiring</div></div></div>
+<div class="panel">
+  <label for="pronunciationSelect"><b>Mashq uchun gapni tanlang</b></label>
+  <select id="pronunciationSelect" onchange="loadPronunciation()" style="display:block;width:100%;margin:10px 0;padding:12px;border-radius:10px;background:#1a2a40;color:white;border:1px solid var(--line)">
+    <option value="Hello! How are you?">Hello! How are you? — Salom! Qalaysiz?</option>
+    <option value="My name is Anvar.">My name is Anvar. — Mening ismim Anvar.</option>
+    <option value="I am learning English.">I am learning English. — Men ingliz tilini o‘rganyapman.</option>
+    <option value="I like playing football.">I like playing football. — Men futbol o‘ynashni yoqtiraman.</option>
+    <option value="I study at university.">I study at university. — Men universitetda o‘qiyman.</option>
+    <option value="What is your favorite food?">What is your favorite food? — Sevimli taomingiz nima?</option>
+    <option value="Thank you very much.">Thank you very much. — Katta rahmat.</option>
+    <option value="I want to become an IT specialist.">I want to become an IT specialist. — Men IT mutaxassisi bo‘lmoqchiman.</option>
+  </select>
+  <div id="pronunciationTarget" style="font-size:23px;font-weight:800;margin:18px 0 6px">Hello! How are you?</div>
+  <div id="pronunciationTranslation" class="muted">Salom! Qalaysiz?</div>
+  <div style="display:flex;gap:9px;flex-wrap:wrap;margin-top:18px">
+    <button class="primary" onclick="playPronunciation()">🔊 Talaffuzni eshitish</button>
+    <button class="secondary" onclick="recordPronunciation()">🎤 O‘zim aytaman</button>
+  </div>
+  <div id="pronunciationHeard" class="result" style="margin-top:15px">Mikrofon tugmasini bosib, inglizcha gapni ayting.</div>
+  <p id="pronunciationStatus" class="muted" style="font-size:12px;margin-bottom:0">Mikrofon ishlashi uchun brauzer ruxsatini bering. Ovozli tekshirish brauzer qo‘llab-quvvatlashiga bog‘liq.</p>
+</div>
+<div class="result"><b>💡 Maslahat</b><p style="margin:5px 0 0">Avval “Talaffuzni eshitish” tugmasini bosing. Keyin gapni 2–3 marta takrorlang. Mikrofon eshitgan so‘zlaringizni matn ko‘rinishida chiqaradi. Bu avtomatik baholash emas, o‘zingizni tekshirishga yordam beradi.</p></div>
+</section>
+<section id="progress" class="view hidden"><div class="section-head"><div><h2>Mening natijalarim</h2><div class="muted">O‘qish jarayoningiz shu qurilmada saqlanadi</div></div></div><div class="panel"><h3>Umumiy rivojlanish</h3><div class="progress"><i id="progressBar"></i></div><p id="progressText" class="muted"></p><div id="completedList"></div><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px"><button class="secondary" onclick="openOnboarding(true)">🧭 7 ta savolli rejani qayta sozlash</button><button class="secondary" onclick="resetProgress()">Natijalarni qayta boshlash</button></div></div></section>
+</main></div><div class="footer">ANVAR ENGLISH PRO · O‘zbek tilida ingliz tili kursi · 2.0</div></div>
+<script>
+const lessons=[
+{title:"Salomlashish va tanishish",tag:"Greetings",desc:"Salomlashish, o‘zingizni tanishtirish",grammar:"I am — Men ...man. You are — Siz ...siz. He is — U (erkak) ...",words:[["Hello","Salom"],["Good morning","Xayrli tong"],["Good evening","Xayrli kech"],["How are you?","Ahvolingiz qanday?"],["I am fine","Men yaxshiman"],["Thank you","Rahmat"],["My name is","Mening ismim"],["Nice to meet you","Tanishganimdan xursandman"]],examples:["My name is Anvar. — Mening ismim Anvar.","I am from Uzbekistan. — Men O‘zbekistondanman.","I am a student. — Men talabaman."],task:"O‘zingiz haqingizda 3 ta gap yozing: ismingiz, qayerdanligingiz va kasbingiz."},
+{title:"Alifbo va talaffuz",tag:"Alphabet",desc:"Ingliz alifbosi va harflar talaffuzi",grammar:"Ingliz alifbosida 26 ta harf bor. Unli harflar: A, E, I, O, U.",words:[["A","ey"],["B","bi"],["C","si"],["D","di"],["E","i"],["F","ef"],["G","ji"],["H","eych"],["I","ay"],["J","jey"]],examples:["Apple — olma","Book — kitob","Cat — mushuk"],task:"Ismingizni inglizcha harflab aytishni mashq qiling."},
+{title:"Olmoshlar",tag:"Pronouns",desc:"I, you, he, she, it, we, they",grammar:"I — men; You — sen/siz; He — u (erkak); She — u (ayol); It — u (narsa); We — biz; They — ular.",words:[["I","Men"],["You","Sen / Siz"],["He","U (erkak)"],["She","U (ayol)"],["It","U (narsa)"],["We","Biz"],["They","Ular"]],examples:["I am Anvar. — Men Anvarman.","She is a teacher. — U o‘qituvchi.","They are students. — Ular talabalar."],task:"Har bir olmosh bilan bittadan gap tuzing."},
+{title:"Am / Is / Are",tag:"To be",desc:"Ingliz tilida hozirgi zamondagi asosiy fe’l",grammar:"I am; He/She/It is; You/We/They are. Inkor: am not, is not, are not.",words:[["am","-man"],["is","-dir / -"],["are","-siz / -miz / -lar"],["student","talaba"],["teacher","o‘qituvchi"],["happy","xursand"]],examples:["I am happy. — Men xursandman.","He is my friend. — U mening do‘stim.","We are ready. — Biz tayyormiz."],task:"Am, is yoki are ishlatib 5 ta gap yozing."},
+{title:"Sonlar va yosh",tag:"Numbers",desc:"1 dan 20 gacha sonlar va yosh aytish",grammar:"I am 21 years old. — Men 21 yoshdaman. How old are you? — Yoshingiz nechida?",words:[["One","Bir"],["Two","Ikki"],["Three","Uch"],["Four","To‘rt"],["Five","Besh"],["Ten","O‘n"],["Twenty","Yigirma"],["Age","Yosh"]],examples:["I am twenty-one. — Men yigirma bir yoshdaman.","How old are you? — Yoshingiz nechida?"],task:"Yoshingizni ingliz tilida yozing."},
+{title:"Oila va odamlar",tag:"Family",desc:"Oila a’zolari va odamlarni tasvirlash",grammar:"My — mening; His — uning (erkak); Her — uning (ayol).",words:[["Family","Oila"],["Mother","Ona"],["Father","Ota"],["Brother","Aka / uka"],["Sister","Opa / singil"],["Friend","Do‘st"],["Parents","Ota-ona"]],examples:["This is my mother. — Bu mening onam.","He is my brother. — U mening akam/ukam."],task:"Oilangiz haqida 3 ta sodda gap yozing."},
+{title:"Kundalik hayot",tag:"Daily routine",desc:"Har kuni bajariladigan ishlar",grammar:"Present Simple: I work. — Men ishlayman. I study. — Men o‘qiyman.",words:[["Wake up","Uyg‘onmoq"],["Eat","Yemoq"],["Go","Bormoq"],["Study","O‘qimoq"],["Work","Ishlamoq"],["Read","O‘qimoq"],["Sleep","Uxlamoq"]],examples:["I study English every day. — Men har kuni ingliz tilini o‘rganaman.","I go to university. — Men universitetga boraman."],task:"Kundalik tartibingiz haqida 4 ta gap yozing."},
+{title:"Savollar tuzish",tag:"Questions",desc:"Oddiy savollar va javoblar",grammar:"What — nima; Where — qayerda; Who — kim; When — qachon; How — qanday. Are you...? — Siz ...misiz?",words:[["What","Nima"],["Where","Qayerda"],["Who","Kim"],["When","Qachon"],["How","Qanday"],["Why","Nega"],["Yes","Ha"],["No","Yo‘q"]],examples:["Where are you from? — Qayerdansiz?","What is your name? — Ismingiz nima?","Do you speak English? — Inglizcha gapirasizmi?"],task:"3 ta inglizcha savol yozing va ularga javob bering."}
+];
+const allWords=lessons.flatMap(l=>l.words);
+const quiz=[
+["Hello so‘zining tarjimasi nima?",["Salom","Rahmat","Xayr"],0],
+["I am a student tarjimasi?",["Men ishlayman","Men talabaman","Men o‘qituvchiman"],1],
+["'Ona' ingliz tilida qanday?",["Sister","Father","Mother"],2],
+["I ___ happy. Bo‘sh joyni to‘ldiring.",["are","am","is"],1],
+["'Ular' inglizchasi?",["We","They","You"],1],
+["Good morning tarjimasi?",["Xayrli tong","Xayrli kech","Xayr"],0],
+["'Kitob' inglizchasi?",["Pen","Book","Apple"],1],
+["She ___ a teacher.",["am","are","is"],2],
+["Where so‘zining tarjimasi?",["Kim","Nima","Qayerda"],2],
+["Thank you nimani anglatadi?",["Iltimos","Rahmat","Kechirasiz"],1]
+];
+const defaultState=()=>({done:[],points:0,wordsSeen:0,bestQuiz:0,planDone:[],lastLesson:null,teacherIdx:0,chat:[],hw:{},onboarding:null});
+const esc=x=>String(x).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let user=null,state=defaultState();
+function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function lsSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+function lsDel(k){try{localStorage.removeItem(k)}catch(e){}}
+function loadState(){
+ let s=null;try{s=JSON.parse(lsGet("aep_progress:"+user.name.toLowerCase())||"null")}catch(e){}
+ if(!s){try{s=JSON.parse(lsGet("anvarEnglishProgress")||"null")}catch(e){}}
+ state=Object.assign(defaultState(),s||{});
+ ["done","planDone","chat"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});if(!state.hw||typeof state.hw!=="object")state.hw={};
+}
+function save(){if(user)lsSet("aep_progress:"+user.name.toLowerCase(),JSON.stringify(state));updateStats()}
+
+/* ---------- goprep.gg/uz/quiz uslubidagi 7 bosqichli onboarding ---------- */
+const ONBOARDING_STEPS = [
+  {
+    key: "goal",
+    title: "Ingliz tilini nima maqsadda o‘rganmoqchisiz?",
+    sub: "Shunga qarab sizga mos dars va suhbat mavzularini tanlaymiz",
+    options: [
+      { val: "ielts", icon: "🎓", title: "IELTS yoki xalqaro imtihon", desc: "Yuqori ball olish va akademik speaking" },
+      { val: "work", icon: "💼", title: "Ish va IT karyera uchun", desc: "Suhbatlar, yozishmalar va xorijiy jamoa" },
+      { val: "travel", icon: "✈️", title: "Sayohat va erkin muloqot", desc: "Chet elda erkin gaplashish va tushunish" },
+      { val: "zero", icon: "🚀", title: "Noldan boshlab o‘rganish", desc: "Alifbo, asosiy so‘zlar va oddiy gaplar" }
+    ]
+  },
+  {
+    key: "level",
+    title: "Hozirgi ingliz tili darajangiz qanday?",
+    sub: "To‘g‘risini tanlang — darslar shundan boshlanadi",
+    options: [
+      { val: "A0", icon: "🌱", title: "Mutlaqo noldan (A0)", desc: "Faqat bir nechta so‘zni bilaman" },
+      { val: "A1", icon: "📘", title: "Boshlang‘ich (A1)", desc: "Oddiy salomlashish va qisqa gaplar tuza olaman" },
+      { val: "A2", icon: "📗", title: "Elementary (A2)", desc: "Kundalik mavzularda biroz gaplasha olaman" },
+      { val: "B1", icon: "📙", title: "O‘rta daraja (B1+)", desc: "Fikrimni tushuntira olaman, lekin ravonlik kerak" }
+    ]
+  },
+  {
+    key: "focus",
+    title: "Qaysi ko‘nikmani kuchaytirish muhimroq?",
+    sub: "Asosiy e’tibor qaratiladigan yo‘nalishni tanlang",
+    options: [
+      { val: "speaking", icon: "🎙️", title: "Gapirish va talaffuz (Speaking)", desc: "Qo‘rqmasdan ravon gapirish" },
+      { val: "vocab", icon: "🔤", title: "So‘z boyligi (Vocabulary)", desc: "Har kuni yangi va kerakli so‘zlar yodlash" },
+      { val: "grammar", icon: "🧩", title: "Grammatika (Grammar)", desc: "Gaplarni to‘g‘ri va xatosiz tuzish" },
+      { val: "all", icon: "⚡", title: "Hammasi teng (Kompleks)", desc: "Speaking, grammatika va testlar birgalikda" }
+    ]
+  },
+  {
+    key: "barrier",
+    title: "Ingliz tilida gapirishda nima ko‘proq xalaqit beradi?",
+    sub: "AI repetitor aynan shu muammoni yengishga yordam beradi",
+    options: [
+      { val: "fear", icon: "🙈", title: "Xato qilishdan uyalaman", desc: "Noto‘g‘ri aytib qo‘yishdan qo‘rqaman" },
+      { val: "words", icon: "🧠", title: "So‘z topolmay qolaman", desc: "O‘zbekcha o‘ylayman, inglizchasi esimga kelmaydi" },
+      { val: "listen", icon: "👂", title: "Eshitib tushunish qiyin", desc: "Tez gapirishsa ilg‘ay olmayman" },
+      { val: "lazy", icon: "⏳", title: "Tartib va intizom yetishmaydi", desc: "Boshlab tashlab qo‘yaman" }
+    ]
+  },
+  {
+    key: "daily",
+    title: "Kuniga necha daqiqa vaqt ajrata olasiz?",
+    sub: "Kichik, lekin muntazam qadamlar eng yaxshi natija beradi",
+    options: [
+      { val: "15", icon: "⚡", title: "Kuniga 15 daqiqa", desc: "Yengil va tezkor mashqlar" },
+      { val: "30", icon: "🔥", title: "Kuniga 30 daqiqa", desc: "O‘rtacha va samarali reja" },
+      { val: "60", icon: "🏆", title: "Kuniga 60 daqiqa", desc: "To‘liq intensiv dars rejimi" },
+      { val: "90", icon: "🚀", title: "Kuniga 90+ daqiqa", desc: "Tezkor natija va imtihonga tayyorgarlik" }
+    ]
+  },
+  {
+    key: "time",
+    title: "Qaysi vaqtda mashq qilish sizga qulay?",
+    sub: "Kun tartibingizga mos eslatma va reja tuzamiz",
+    options: [
+      { val: "morning", icon: "🌅", title: "Ertalab (07:00 – 11:00)", desc: "Miya yangi ma’lumotni tez qabul qiladi" },
+      { val: "afternoon", icon: "☀️", title: "Kunduzi (12:00 – 17:00)", desc: "O‘qish yoki ish orasidagi tanaffusda" },
+      { val: "evening", icon: "🌆", title: "Kechqurun (18:00 – 22:00)", desc: "Ishdan keyin xotirjam shug‘ullanish" },
+      { val: "night", icon: "🌙", title: "Tunda (22:00 dan keyin)", desc: "Sokin muhitda o‘rganish" }
+    ]
+  },
+  {
+    key: "speed",
+    title: "Qachongacha sezilarli natijaga erishmoqchisiz?",
+    sub: "Oxirgi savol! Shundan so‘ng AI repetitoringizni tanlaysiz",
+    options: [
+      { val: "1m", icon: "🎯", title: "1 oy ichida", desc: "Asosiy muloqot va 30 kunlik reja" },
+      { val: "3m", icon: "📈", title: "3 oy ichida", desc: "Ishonchli suhbat va mustahkam baza" },
+      { val: "6m", icon: "🏅", title: "6 oy ichida", desc: "IELTS yoki erkin muloqot darajasi" },
+      { val: "steady", icon: "🌿", title: "Shoshmasdan, doimiy", desc: "O‘zimga qulay tezlikda o‘rganaman" }
+    ]
+  }
+];
+
+let obIndex = 0;
+let obAnswers = {};
+let obIsEditing = false;
+
+function openOnboarding(editing = false) {
+  obIsEditing = editing;
+  obAnswers = Object.assign({}, state.onboarding || {});
+  obIndex = 0;
+  renderOnboardingStep();
+  const m = $("onboardingModal");
+  m.classList.add("open");
+  m.setAttribute("aria-hidden", "false");
+}
+
+function closeOnboarding() {
+  const m = $("onboardingModal");
+  m.classList.remove("open");
+  m.setAttribute("aria-hidden", "true");
+}
+
+function renderOnboardingStep() {
+  const total = ONBOARDING_STEPS.length;
+  const step = ONBOARDING_STEPS[obIndex];
+  const pct = Math.round(((obIndex + 1) / total) * 100);
+  $("obStepCount").textContent = `${obIndex + 1} / ${total}`;
+  $("obBarFill").style.width = pct + "%";
+  $("obBackBtn").style.visibility = obIndex > 0 ? "visible" : "hidden";
+  $("obTitle").textContent = step.title;
+  $("obSub").textContent = step.sub;
+
+  const picked = obAnswers[step.key];
+  $("obOptions").innerHTML = step.options.map(o => `
+    <button type="button" class="ob-opt ${picked === o.val ? "selected" : ""}" onclick="selectOnboardingOption('${step.key}', '${o.val}')">
+      <div class="ob-ico">${o.icon}</div>
+      <div class="ob-txt">
+        <b>${o.title}</b>
+        <small>${o.desc}</small>
+      </div>
+      <div class="ob-check">${picked === o.val ? "✓" : ""}</div>
+    </button>
+  `).join("");
+
+  const nextBtn = $("obNextBtn");
+  nextBtn.disabled = !picked;
+  nextBtn.textContent = obIndex === total - 1 ? "Repetitor tanlashga o‘tish →" : "Davom etish";
+}
+
+function selectOnboardingOption(key, val) {
+  obAnswers[key] = val;
+  renderOnboardingStep();
+}
+
+function obPrev() {
+  if (obIndex > 0) {
+    obIndex--;
+    renderOnboardingStep();
+  }
+}
+
+function obNext() {
+  const step = ONBOARDING_STEPS[obIndex];
+  if (!obAnswers[step.key]) return;
+  if (obIndex < ONBOARDING_STEPS.length - 1) {
+    obIndex++;
+    renderOnboardingStep();
+  } else {
+    state.onboarding = Object.assign({}, obAnswers);
+    save();
+    applyOnboardingPlan();
+    closeOnboarding();
+    openPersonaModal(true);
+  }
+}
+
+function getProfileSummaryText() {
+  const ob = state.onboarding;
+  if (!ob) return "";
+  const goalMap = { ielts: "IELTS imtihoni", work: "Ish va IT", travel: "Sayohat", zero: "Noldan boshlash" };
+  const focusMap = { speaking: "Speaking", vocab: "So‘z boyligi", grammar: "Grammatika", all: "Kompleks" };
+  return `Goal: ${goalMap[ob.goal] || ob.goal}, Level: ${ob.level || "A1"}, Focus: ${focusMap[ob.focus] || ob.focus}, Daily: ${ob.daily || 60} min`;
+}
+
+function applyOnboardingPlan() {
+  const ob = state.onboarding;
+  if (!ob) return;
+  const mins = Number(ob.daily) || 60;
+  const levelMap = { A0: "Mutlaqo noldan (A0)", A1: "Boshlang‘ich (A1)", A2: "Elementary (A2)", B1: "O‘rta daraja (B1+)" };
+  const goalMap = {
+    ielts: "IELTS MAQSADINGIZ UCHUN MAXSUS REJA",
+    work: "ISH VA IT KARYERA UCHUN INGLIZ TILI",
+    travel: "SAYOHAT VA ERKIN MULOQOT REJASI",
+    zero: "NOLDAN BOSHLOVCHILAR UCHUN REJA"
+  };
+
+  if ($("dailyGoalStat")) $("dailyGoalStat").textContent = mins + " min";
+  if ($("heroGoalEyebrow")) $("heroGoalEyebrow").textContent = goalMap[ob.goal] || "SIZNING SHAXSIY INGLIZ TILI KURSingiz";
+  if ($("homePlanMeta")) $("homePlanMeta").textContent = `Kuniga ${mins} daqiqa · ${levelMap[ob.level] || "Boshlang‘ich A1 daraja"}`;
+  if ($("planSubMeta")) $("planSubMeta").textContent = `Har kuni ${mins} daqiqa · Sizning darajangizga moslashtirilgan`;
+  if ($("homeDailyTitle")) $("homeDailyTitle").textContent = `${mins} daqiqalik shaxsiy mashg‘ulot`;
+
+  const w = Math.max(3, Math.round(mins * 0.2));
+  const g = Math.max(3, Math.round(mins * 0.25));
+  const s = Math.max(4, Math.round(mins * 0.3));
+  const q = Math.max(3, mins - w - g - s);
+  if ($("homeDailySplit")) {
+    $("homeDailySplit").textContent = `${w} daqiqa so‘z · ${g} daqiqa grammatika · ${s} daqiqa AI suhbat · ${q} daqiqa test`;
+  }
+
+  const card = $("onboardingSummaryCard");
+  if (card) {
+    const focusName = { speaking: "Gapirish (Speaking)", vocab: "So‘z yodlash", grammar: "Grammatika", all: "Kompleks mashq" }[ob.focus] || "Speaking";
+    card.classList.remove("hidden");
+    card.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+        <div>
+          <div class="eyebrow">SHAXSIY PROFILINGIZ (7 SAVOL ASOSIDA)</div>
+          <div style="margin-top:4px;font-size:14px">Daraja: <b>${ob.level}</b> · Asosiy urg‘u: <b>${focusName}</b> · Kunlik reja: <b>${mins} daqiqa</b></div>
+        </div>
+        <button class="secondary" style="font-size:12px" onclick="openOnboarding(true)">✏️ O‘zgartirish</button>
+      </div>
+    `;
+  }
+}
+
+/* ---------- 4 xil xarakterli AI repetitor ovozlari ---------- */
+const PERSONAS = {
+  angry: {
+    id: "angry",
+    name: "Jahldor",
+    desc: "Qattiqqo‘l, xatoni kechirmaydi",
+    sampleEn: "Focus! Don't waste time, repeat after me right now!",
+    sampleUz: "Diqqat qil! Vaqtni behuda sarflama, hoziroq takrorla!",
+    pitch: 0.78,
+    rateMult: 1.08,
+    voiceHint: /David|Mark|Daniel|George|Male|Google UK English Male/i,
+    praise: ["Nihoyat to‘g‘ri aytding!", "Bo‘lar ekan-ku! Keyingisi!", "Yaxshi, lekin bo‘shashma!"],
+    scold: ["Xato! E’tibor bilan eshit va qaytadan ayt!", "Yo‘q, noto‘g‘ri! Yana bir marta!"],
+    offlineSuffix: [" Answer quickly!", " Don't waste time!", " Say it clearly!"]
+  },
+  kind: {
+    id: "kind",
+    name: "Mehribon",
+    desc: "Hammasini unutib qo‘ysangiz ham qo‘llab-quvvatlaydi",
+    sampleEn: "Don't worry at all! You are doing great, let's try together.",
+    sampleUz: "Hech xavotir olmang! Siz juda yaxshi harakat qilyapsiz, birga davom etamiz.",
+    pitch: 1.15,
+    rateMult: 0.94,
+    voiceHint: /Aria|Jenny|Samantha|Zira|Female|Google US English/i,
+    praise: ["Barakalla! Juda zo‘r chiqdi!", "Ajoyib, siz uddaladingiz!", "Super! Davom etamiz!"],
+    scold: ["Hechqisi yo‘q, birga qayta urinib ko‘ramiz.", "Xato qilish tabiiy, yana bir bor ayting."],
+    offlineSuffix: [" You are doing wonderful!", " Take your time, I believe in you!", " Keep going, you are great!"]
+  },
+  sarcastic: {
+    id: "sarcastic",
+    name: "Kinoyali",
+    desc: "Kesatadi, lekin o‘rinli",
+    sampleEn: "Oh, brilliant pronunciation... if we were speaking another language.",
+    sampleUz: "Oh, ajoyib talaffuz... agar boshqa tilda gaplashayotgan bo‘lsak.",
+    pitch: 1.05,
+    rateMult: 1.02,
+    voiceHint: /Hazel|Libby|Victoria|Kate|Google UK English Female/i,
+    praise: ["Qoyil, bu safar hatto to‘g‘ri chiqdi.", "Ajabo, birinchi urinishda o‘xshadi-ya!"],
+    scold: ["Qiziq talqin, lekin inglizchasi boshqacha.", "Yaxshi urinish, endi to‘g‘risini eshitib ko‘raylik."],
+    offlineSuffix: [" Let's see if you survive this one.", " Try not to break the dictionary.", " Impress me, if you can."]
+  },
+  neutral: {
+    id: "neutral",
+    name: "Neytral",
+    desc: "Xotirjam va lo‘nda",
+    sampleEn: "Hello. Let's begin the lesson. Listen and repeat.",
+    sampleUz: "Salom. Darsni boshlaymiz. Tinglang va takrorlang.",
+    pitch: 0.96,
+    rateMult: 0.98,
+    voiceHint: /Guy|Christopher|Alex|Google US English/i,
+    praise: ["To‘g‘ri. Keyingi ibora.", "Yaxshi. Davom etamiz."],
+    scold: ["Noto‘g‘ri. Qaytadan ayting.", "Xato bor. Yana urinib ko‘ring."],
+    offlineSuffix: ["", "", ""]
+  }
+};
+
+let currentPersona = lsGet("aep_persona") || "kind";
+if (!PERSONAS[currentPersona]) currentPersona = "kind";
+let tempPersona = currentPersona;
+let startVoiceAfterPersona = false;
+
+function getVoiceForPersona(pKey) {
+  const p = PERSONAS[pKey] || PERSONAS.kind;
+  if (!("speechSynthesis" in window)) return null;
+  const vs = speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang));
+  return vs.find(v => p.voiceHint.test(v.name)) || enVoice || vs[0] || null;
+}
+
+function applyPersonaSpeech(u, pKey, baseRate) {
+  const p = PERSONAS[pKey] || PERSONAS.kind;
+  const v = getVoiceForPersona(pKey);
+  u.lang = "en-US";
+  if (v) u.voice = v;
+  u.pitch = p.pitch;
+  u.rate = Math.max(0.6, Math.min(1.4, (baseRate || 0.9) * p.rateMult));
+}
+
+function syncPersonaLabels() {
+  const p = PERSONAS[currentPersona] || PERSONAS.kind;
+  if ($("personaBadge")) $("personaBadge").textContent = p.name;
+  if ($("chatPersonaLabel")) $("chatPersonaLabel").textContent = p.name;
+  if ($("voicePersonaLabel")) $("voicePersonaLabel").textContent = p.name;
+}
+
+function openPersonaModal(fromOnboarding = false) {
+  startVoiceAfterPersona = fromOnboarding;
+  tempPersona = currentPersona;
+  renderPersonaList();
+  const m = $("personaModal");
+  m.classList.add("open");
+  m.setAttribute("aria-hidden", "false");
+}
+
+function closePersonaModal() {
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+  const m = $("personaModal");
+  m.classList.remove("open");
+  m.setAttribute("aria-hidden", "true");
+}
+
+function renderPersonaList() {
+  const root = $("personaList");
+  if (!root) return;
+  root.innerHTML = Object.values(PERSONAS).map(p => `
+    <div class="p-item ${tempPersona === p.id ? "selected" : ""}" onclick="previewPersona('${p.id}')">
+      <div class="p-mini ${p.id}"><span></span><i></i><span></span></div>
+      <div class="p-info">
+        <b>${p.name}</b>
+        <small>${p.desc}</small>
+      </div>
+      <button type="button" class="p-sound" onclick="event.stopPropagation();previewPersona('${p.id}')" aria-label="Ovozni eshitish">🔊</button>
+    </div>
+  `).join("");
+  updatePersonaFace(tempPersona);
+}
+
+function updatePersonaFace(id) {
+  const p = PERSONAS[id] || PERSONAS.kind;
+  const face = $("personaFace");
+  if (face) face.className = "p-face " + p.id;
+  if ($("personaSampleText")) {
+    $("personaSampleText").innerHTML = `<b>${p.sampleEn}</b><br><span style="color:#9aabc4">${p.sampleUz}</span>`;
+  }
+}
+
+function previewPersona(id) {
+  tempPersona = id;
+  renderPersonaList();
+  if (!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const p = PERSONAS[id];
+  const u = new SpeechSynthesisUtterance(p.sampleEn);
+  applyPersonaSpeech(u, id, 0.95);
+  speechSynthesis.speak(u);
+}
+
+function confirmPersona() {
+  currentPersona = tempPersona;
+  lsSet("aep_persona", currentPersona);
+  syncPersonaLabels();
+  closePersonaModal();
+  if ($("voiceState")) setVS("Repetitor tanlandi: " + PERSONAS[currentPersona].name);
+  if (startVoiceAfterPersona) {
+    startVoiceAfterPersona = false;
+    showView("chat");
+    openVoiceMode();
+  }
+}
+
+/* ---------- Kirish (faqat ism) ---------- */
+let apiBase="";
+function showLogin(){$("loginBox").classList.add("open");$("loginError").textContent="";setTimeout(()=>$("loginName").focus(),50)}
+function login(){
+ const name=$("loginName").value.trim().replace(/\s+/g," ");
+ if(name.length<2||name.length>30){$("loginError").textContent="Ism 2–30 belgidan iborat bo‘lsin.";return}
+ user={name};lsSet("aep_user",JSON.stringify(user));
+ $("loginBox").classList.remove("open");
+ startApp(true);
+}
+function renameUser(){
+ const n=prompt("Sizni qanday chaqiray? Yangi ismni yozing:",user.name);if(n===null)return;
+ const name=n.trim().replace(/\s+/g," ");
+ if(name.length<2||name.length>30){alert("Ism 2–30 belgidan iborat bo‘lsin.");return}
+ const oldK="aep_progress:"+user.name.toLowerCase(),newK="aep_progress:"+name.toLowerCase();
+ if(oldK!==newK&&lsGet(newK)&&!confirm("«"+name+"» ismi bilan boshqa natijalar saqlangan. Ular sizning natijalaringiz bilan almashtiriladi. Davom etasizmi?"))return;
+ save();const v=lsGet(oldK);if(v&&oldK!==newK)lsSet(newK,v);
+ user.name=name;lsSet("aep_user",JSON.stringify({name}));save();
+ $("profilePill").textContent="👤 "+name+" · "+(state.onboarding?.level||"Beginner");restoreChat(false);renderContinue();
+}
+function logout(){
+ if(!confirm("Ismni o‘zgartirasizmi? Natijalaringiz saqlanib qoladi."))return;
+ closeVoiceMode();lsDel("aep_user");location.reload();
+}
+async function findServer(){
+ const c=[],add=u=>{if(u&&!c.includes(u))c.push(u)};
+ add(lsGet("aep_api"));if(/^https?:$/.test(location.protocol))add(location.origin);add("http://localhost:3000");add("http://127.0.0.1:3000");
+ for(const u of c){
+  try{const ctrl=new AbortController(),t=setTimeout(()=>ctrl.abort(),2000);
+   const r=await fetch(u+"/ping",{signal:ctrl.signal});clearTimeout(t);
+   const d=await r.json();if(d&&d.app==="anvar-english")return {url:u,ai:!!d.ai}}catch(e){}
+ }
+ return null;
+}
+async function connectAI(){
+ const f=await findServer();
+ if(f&&f.ai){apiBase=f.url;lsSet("aep_api",f.url)}else apiBase="";
+ updateAiMode(f);
+}
+function startApp(isFreshLogin = false){
+ loadState();aiHistory=[];
+ document.getElementById("profilePill").textContent="👤 "+user.name+" · "+(state.onboarding?.level||"Beginner");
+ syncPersonaLabels();
+ applyOnboardingPlan();
+ updateAiMode();connectAI();
+ renderLessons();renderQuiz();renderPlan();updateStats();restoreChat(!isFreshLogin);showView("home");
+ if (!state.onboarding) {
+   openOnboarding(false);
+ }
+}
+
+/* ---------- AI suhbat ---------- */
+let aiHistory=[];
+function getAiUrl(){return apiBase?apiBase+"/chat":""}
+function updateAiMode(f){
+ const el=$("aiModeText");if(!el)return;
+ if(apiBase)el.textContent="✅ AI server ulangan — "+user.name+", siz haqiqiy sun’iy intellekt bilan gaplashyapsiz ("+PERSONAS[currentPersona].name+" rejimi).";
+ else if(f&&!f.ai)el.textContent="Server ishlayapti, lekin ANTHROPIC_API_KEY kiritilmagan (.env faylga yozing). Hozir tayyor javobli mashq rejimi ishlayapti.";
+ else el.textContent="AI server ulanmagan — hozir tayyor javobli mashq rejimi va Ustoz rejimi ishlayapti. Haqiqiy AI uchun start.bat ni ishga tushiring.";
+}
+async function askAI(msg){
+ const url=getAiUrl();let note="";
+ if(url){
+  const history=aiHistory.concat([{role:"user",content:msg}]).slice(-20);
+  try{
+   const ctrl=new AbortController();const to=setTimeout(()=>ctrl.abort(),30000);
+   const res=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:user.name,persona:currentPersona,profile:getProfileSummaryText(),messages:history}),signal:ctrl.signal});
+   clearTimeout(to);
+   if(!res.ok)throw new Error("HTTP "+res.status);
+   const data=await res.json();const full=String(data.reply||"").trim();
+   if(!full)throw new Error("bo‘sh javob");
+   const parts=full.split(/\n-{3,}\n/);const reply=parts[0].trim(),uz=(parts[1]||"").trim();
+   aiHistory=history.concat([{role:"assistant",content:reply}]).slice(-20);
+   return {reply,uz,note:""};
+  }catch(e){note="AI serverga ulanib bo‘lmadi ("+e.message+"). Tayyor javob rejimi ishlatildi."}
+ }
+ const [reply,uz]=tutorReplyN(msg);
+ aiHistory=aiHistory.concat([{role:"user",content:msg},{role:"assistant",content:reply}]).slice(-20);
+ return {reply,uz,note};
+}
+function updateStats(){let d=state.done.length;document.getElementById("doneStat").textContent=d+" / "+lessons.length;document.getElementById("pointsStat").textContent=state.points;document.getElementById("wordsStat").textContent=state.wordsSeen;let p=Math.round(d/lessons.length*100);document.getElementById("heroProgress").textContent=p+"%";document.getElementById("homeBar").style.width=p+"%";document.getElementById("progressBar").style.width=p+"%";document.getElementById("homeProgressText").textContent=d?d+" ta dars tugatildi. Davom eting!":"Hozircha dars boshlanmadi.";document.getElementById("progressText").textContent="Siz "+d+" ta darsni tugatdingiz. Umumiy natija: "+p+"%.";document.getElementById("completedList").innerHTML=lessons.map((l,i)=>`<p>${state.done.includes(i)?"✅":"○"} ${l.title}</p>`).join("")}
+function showView(id){document.querySelectorAll(".view").forEach(v=>v.classList.add("hidden"));document.getElementById(id).classList.remove("hidden");document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===id));if(id==="vocab")renderWords();if(id==="plan")renderPlan();if(id==="quiz")renderQuiz();if(id==="lessons")renderLessons();if(id==="progress")updateStats();if(id==="home")renderContinue();window.scrollTo({top:0,behavior:"smooth"})}
+document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>showView(b.dataset.view));
+function renderContinue(){
+ const el=$("continueCard");if(!el||!user)return;
+ const allDone=state.done.length>=lessons.length;
+ let i=state.lastLesson;if(i==null||i<0||i>=lessons.length)i=lessons.findIndex((x,k)=>!state.done.includes(k));if(i<0)i=0;
+ const l=lessons[i],started=state.done.length>0||state.lastLesson!=null;
+ el.innerHTML=`<div class="num">${String(i+1).padStart(2,"0")}</div><div><h3>${l.title}</h3><p>${l.desc}</p><button class="primary" onclick="openLesson(${i})">${allDone?"Takrorlash":started?"Davom ettirish":"Darsni boshlash"}</button></div>`;
+ const t=$("continueTeacher");
+ if(t){const n=Math.min(state.teacherIdx||0,TEACH_STEPS.length-1),cur=TEACH_STEPS[n];
+  t.innerHTML=`<div class="num">🎧</div><div><h3>Ustoz bilan gaplashish (${PERSONAS[currentPersona].name})</h3><p>${state.teacherIdx>0?"Qadam "+(n+1)+"/"+TEACH_STEPS.length+" — "+cur.unit+". Shu joydan davom etasiz.":"Noldan o‘rganing: ustoz o‘zbekcha tushuntiradi va talaffuzingizni tekshiradi."}</p><button class="primary" onclick="startTeacherFromHome()">${state.teacherIdx>0?"Davom ettirish":"Boshlash"}</button></div>`}
+}
+function startTeacherFromHome(){showView("chat");$("voiceModeSel").value="teacher";openVoiceMode()}
+function renderLessons(){document.getElementById("lessonGrid").innerHTML=lessons.map((l,i)=>`<div class="lesson"><div class="num">${String(i+1).padStart(2,"0")}</div><div style="flex:1"><h3>${l.title} ${state.done.includes(i)?"✓":""}</h3><p>${l.desc}</p><span class="pill">${l.tag}</span><div style="margin-top:12px"><button class="primary" onclick="openLesson(${i})">${state.done.includes(i)?"Takrorlash":"Darsni boshlash"}</button></div></div></div>`).join("")}
+function openLesson(i,keep){let l=lessons[i];if(!keep){state.lastLesson=i;save()}showView("lessonDetail");document.getElementById("lessonBody").innerHTML=`<div class="panel" style="margin-top:12px"><div class="eyebrow">LESSON ${i+1} · ${l.tag.toUpperCase()}</div><h2>${l.title}</h2><p class="muted">${l.desc}</p><h3>📖 Grammatika</h3><p>${l.grammar}</p><h3>🔤 Yangi so‘zlar</h3><div class="word-list">${l.words.map(w=>`<div class="word"><b>${w[0]}</b><small>${w[1]}</small></div>`).join("")}</div><h3>💬 Misollar</h3>${l.examples.map(x=>`<p>${x}</p>`).join("")}<div class="result"><b>✍️ Uyga vazifa</b><p>${l.task}</p><textarea id="homework" oninput="saveHw(${i},this.value)" placeholder="Javobingizni shu yerga yozing..." style="width:100%;min-height:90px;padding:11px;border-radius:10px;background:#0d192a;color:white;border:1px solid var(--line)">${esc(state.hw[i]||"")}</textarea><p class="muted" style="font-size:12px">Vazifangiz avtomatik saqlanadi.</p></div><button class="primary" style="margin-top:15px" onclick="completeLesson(${i})">${state.done.includes(i)?"Dars tugatilgan ✓":"Darsni tugatish ✓"}</button></div>`}
+function saveHw(i,v){state.hw[i]=v;if(user)lsSet("aep_progress:"+user.name.toLowerCase(),JSON.stringify(state))}
+function completeLesson(i){if(!state.done.includes(i)){state.done.push(i);state.points+=20;state.wordsSeen+=lessons[i].words.length}const nx=lessons.findIndex((x,k)=>!state.done.includes(k));state.lastLesson=nx<0?i:nx;save();renderLessons();openLesson(i,true)}
+function renderWords(){let q=(document.getElementById("wordSearch")?.value||"").toLowerCase();document.getElementById("wordList").innerHTML=allWords.filter(w=>(w[0]+" "+w[1]).toLowerCase().includes(q)).map(w=>`<div class="word"><b>${w[0]}</b><small>${w[1]}</small></div>`).join("")||"<p class='muted'>So‘z topilmadi.</p>"}
+
+const studyPlan=[
+{week:"1-hafta · Poydevor",focus:"Alifbo, salomlashish va tanishish",days:[
+["1-kun","Ingliz alifbosi: A–M","Harflarni tanish va talaffuz qilish"],
+["2-kun","Ingliz alifbosi: N–Z","Harflarni takrorlash va ismingizni harflab aytish"],
+["3-kun","Unli va undosh tovushlar","A, E, I, O, U tovushlari; oddiy so‘zlarni o‘qish"],
+["4-kun","Salomlashish","Hello, Good morning, Good evening, Goodbye"],
+["5-kun","Ahvol so‘rash","How are you? I am fine. And you?"],
+["6-kun","O‘zingizni tanishtirish","My name is… I am from… I am a student."],
+["7-kun","1-hafta takrorlash","Alifbo, salomlashish va tanishish bo‘yicha mini-test"]
+]},
+{week:"2-hafta · Oddiy grammatika",focus:"Olmoshlar, am/is/are va sonlar",days:[
+["8-kun","Kishilik olmoshlari","I, you, he, she, it, we, they"],
+["9-kun","Egalik so‘zlari","My, your, his, her, our, their"],
+["10-kun","Am / is / are — tasdiq gap","I am, He is, They are"],
+["11-kun","Am / is / are — inkor gap","I am not, He is not, We are not"],
+["12-kun","Am / is / are — savol","Are you…? Is he…? Qisqa javoblar"],
+["13-kun","Sonlar 1–100 va yosh","How old are you? I am … years old."],
+["14-kun","2-hafta takrorlash","Olmoshlar, am/is/are va sonlar bo‘yicha test"]
+]},
+{week:"3-hafta · Kundalik hayot",focus:"Present Simple va kundalik faoliyat",days:[
+["15-kun","Present Simple: I / you / we / they","I work. We study. They play."],
+["16-kun","Present Simple: he / she / it","He works. She studies. -s / -es qo‘shimchasi"],
+["17-kun","Present Simple inkor","don’t va doesn’t bilan gaplar"],
+["18-kun","Present Simple savol","Do you…? Does she…?"],
+["19-kun","Kundalik ishlar","Wake up, eat, go, study, work, sleep"],
+["20-kun","Vaqt va hafta kunlari","Soat aytish, Monday–Sunday, every day"],
+["21-kun","3-hafta takrorlash","Kundalik tartib haqida 5–7 ta gap va test"]
+]},
+{week:"4-hafta · Muloqot va mustahkamlash",focus:"Savollar, o‘qish va suhbat",days:[
+["22-kun","Savol so‘zlari","What, Where, Who, When, Why, How"],
+["23-kun","Joy va yo‘nalish so‘rash","Where is…? It is near… Turn left/right."],
+["24-kun","Oila va do‘stlar haqida","This is my family. He is my friend."],
+["25-kun","O‘qish: qisqa matn","Matnni o‘qish, yangi so‘zlarni topish"],
+["26-kun","Tinglab tushunish","Oddiy tanishuv dialogini tinglash va anglash"],
+["27-kun","Suhbat: tanishuv","Ism, yashash joyi, o‘qish va qiziqishlar"],
+["28-kun","O‘qish va ish uchun so‘zlar","School, university, job, office, computer, email"],
+["29-kun","Katta takrorlash","4 haftadagi grammatika va lug‘atni takrorlash"],
+["30-kun","Yakuniy imtihon va suhbat","O‘zingizni tanishtirish, savol-javob va yakuniy test"]
+]}
+];
+function renderPlan(){
+ const root=document.getElementById("planWeeks"); if(!root)return;
+ const mins = state.onboarding?.daily || "60";
+ root.innerHTML=studyPlan.map((w,wi)=>`<div class="panel" style="margin-bottom:13px"><div class="eyebrow">${w.week}</div><h3 style="margin:5px 0">${w.focus}</h3><div>${w.days.map((d,di)=>{const id=studyPlan.slice(0,wi).reduce((n,x)=>n+x.days.length,0)+di;const done=state.planDone.includes(id);return `<div style="display:flex;gap:11px;align-items:flex-start;padding:11px 0;border-top:1px solid var(--line)"><input aria-label="${d[0]} bajarildi" type="checkbox" ${done?"checked":""} onchange="togglePlanDay(${id},this.checked)" style="width:19px;height:19px;accent-color:#55dda1;margin-top:3px"><div style="flex:1"><b style="${done?"text-decoration:line-through;color:#8da2ba":""}">${d[0]} · ${d[1]}</b><div class="muted" style="font-size:13px">${d[2]}</div></div><span class="pill">${done?"Bajarildi":mins+" min"}</span></div>`}).join("")}</div></div>`).join("");
+ const n=state.planDone.length, pct=Math.round(n/30*100);
+ document.getElementById("planBar").style.width=pct+"%";
+ document.getElementById("planCount").textContent=n+" / 30 kun bajarildi · "+pct+"%";
+}
+function togglePlanDay(id,checked){state.planDone=state.planDone.filter(x=>x!==id);if(checked)state.planDone.push(id);state.points+=checked?5:-5;state.points=Math.max(0,state.points);save();renderPlan()}
+let chosen={};
+function renderQuiz(){chosen={};document.getElementById("quizResult").innerHTML="";document.getElementById("submitQuiz").classList.remove("hidden");document.getElementById("quizArea").innerHTML=quiz.map((q,i)=>`<div class="question"><h3>${i+1}. ${q[0]}</h3>${q[1].map((o,j)=>`<button class="option" id="q${i}o${j}" onclick="pick(${i},${j})">${String.fromCharCode(65+j)}. ${o}</button>`).join("")}</div>`).join("")}
+function pick(i,j){chosen[i]=j;quiz[i][1].forEach((_,k)=>document.getElementById(`q${i}o${k}`).classList.toggle("selected",k===j))}
+function submitQuiz(){if(Object.keys(chosen).length!==quiz.length){alert("Iltimos, barcha 10 ta savolga javob bering.");return}let score=0;quiz.forEach((q,i)=>{if(chosen[i]===q[2])score++;q[1].forEach((_,j)=>{let el=document.getElementById(`q${i}o${j}`);el.disabled=true;if(j===q[2])el.classList.add("correct");else if(chosen[i]===j)el.classList.add("wrong")})});let points=score*10;state.points+=points;state.bestQuiz=Math.max(state.bestQuiz,score);save();document.getElementById("quizResult").innerHTML=`<div class="result"><h3>Natija: ${score}/10 (${score*10}%)</h3><p>${score>=8?"Ajoyib! Juda yaxshi natija!":score>=5?"Yaxshi! Yana mashq qiling.":"Xafa bo‘lmang, darslarni takrorlab qayta urinib ko‘ring."}</p><b>+${points} ball</b></div>`;document.getElementById("submitQuiz").classList.add("hidden")}
+
+let lastTutorReply="Hello, Anvar! What is your name?";
+function addChatBubble(text,who,translation=""){
+ const box=document.getElementById("chatMessages");
+ const div=document.createElement("div");
+ div.style.cssText=who==="user"?"max-width:88%;margin:8px 0 8px auto;background:#244b68;padding:11px 13px;border-radius:13px":"max-width:88%;margin:8px auto 8px 0;background:#20334b;padding:11px 13px;border-radius:13px";
+ div.textContent=text;
+ if(translation){const small=document.createElement("small");small.style.cssText="display:block;color:#a9bad0;margin-top:5px";small.textContent=translation;div.appendChild(small)}
+ box.appendChild(div);box.scrollTop=box.scrollHeight;
+}
+function tutorReply(msg){
+ const t=msg.toLowerCase().trim();const n=user?user.name:"friend";
+ if(/my name is|i am \w+$|i'm \w+$/.test(t)&&!/student|fine|happy|ready|tired|good|ok|okay|well|great|bad|sad|here/.test(t)) return ["Nice to meet you, "+n+"! Where are you from?","Tanishganimdan xursandman, "+n+"! Qayerdansiz?"];
+ if(/from uzbekistan|from tashkent|i live in/.test(t)) return ["Great, "+n+"! Uzbekistan is a beautiful country. Are you a student?","Ajoyib, "+n+"! O‘zbekiston go‘zal mamlakat. Siz talabamisiz?"];
+ if(/\b(computer|programming|engineering|software|developer)\b/.test(t)||/\bIT\b/.test(msg)) return ["That sounds interesting! Why do you want to learn English?","Bu qiziqarli! Nima uchun ingliz tilini o‘rganmoqchisiz?"];
+ if(/student|university|i study/.test(t)) return ["Excellent! What do you study?","Zo‘r! Nima yo‘nalishda o‘qiysiz?"];
+ if(/because|job|work|career|study english/.test(t)) return ["Good answer! What do you like doing in your free time?","Yaxshi javob! Bo‘sh vaqtingizda nima qilishni yoqtirasiz?"];
+ if(/football|basketball|music|movie|friend/.test(t)) return ["Great! Tell me one more thing about yourself.","Ajoyib! O‘zingiz haqingizda yana bir narsa ayting."];
+ if(/how are you|i am fine|i'm fine/.test(t)) return ["I'm fine, thank you! And you?","Men yaxshiman, rahmat! Siz-chi?"];
+ if(t.split(/\s+/).length<2) return ["Good try! Please write a full sentence, for example: I am a student.","Yaxshi urinish! To‘liq gap yozing. Masalan: I am a student."];
+ return ["Well done for trying! A useful sentence is: I am learning English every day. Can you write a sentence about yourself?","Harakat qilganingiz yaxshi! Foydali gap: Men har kuni ingliz tilini o‘rganyapman. O‘zingiz haqingizda gap yoza olasizmi?"];
+}
+let nameTick=0;
+function tutorReplyN(msg){
+ let [en,uz]=tutorReply(msg);const n=user?user.name:"";
+ const p=PERSONAS[currentPersona]||PERSONAS.kind;
+ const suf=p.offlineSuffix[nameTick%p.offlineSuffix.length]||"";
+ if(n&&!en.includes(n)&&nameTick%2===0){
+  const lo=x=>x.charAt(0).toLowerCase()+x.slice(1);
+  en=n+", "+lo(en);uz=n+", "+lo(uz);
+ }
+ nameTick++;
+ return [en+suf,uz];
+}
+let chatBusy=false;
+async function sendChat(){
+ if(chatBusy)return;const input=document.getElementById("chatInput");const msg=input.value.trim();if(!msg)return;
+ chatBusy=true;addChatBubble(msg,"user");logChat("user",msg);input.value="";
+ const wait=document.createElement("div");wait.style.cssText="margin:8px 0;color:#9aabc4;font-size:13px";wait.textContent="Yozmoqda...";
+ const box=document.getElementById("chatMessages");box.appendChild(wait);box.scrollTop=box.scrollHeight;
+ try{const r=await askAI(msg);wait.remove();lastTutorReply=r.reply;addChatBubble(r.reply,"bot",r.uz);logChat("bot",r.reply,r.uz);if(r.note)document.getElementById("speechStatus").textContent=r.note}
+ catch(e){wait.remove();document.getElementById("speechStatus").textContent="Xatolik yuz berdi. Qayta urinib ko‘ring."}
+ chatBusy=false;
+}
+function chatQuick(t){document.getElementById("chatInput").value=t.replace("Anvar",user?user.name:"Anvar");sendChat()}
+function logChat(w,t,uz){state.chat.push({w,t,uz:uz||""});if(state.chat.length>60)state.chat=state.chat.slice(-60);save()}
+function restoreChat(welcomeBack){
+ const box=$("chatMessages");box.innerHTML="";const n=user?user.name:"friend";
+ if(!state.chat.length){aiHistory=[];lastTutorReply="Hello, "+n+"! How are you today?";addChatBubble("Hello, "+n+"! 👋 How are you today?","bot","Salom, "+n+"! Bugun ahvolingiz qanday?");return}
+ state.chat.forEach(m=>addChatBubble(m.t,m.w,m.uz));
+ aiHistory=state.chat.map(m=>({role:m.w==="user"?"user":"assistant",content:m.t})).slice(-20);
+ while(aiHistory.length&&aiHistory[0].role!=="user")aiHistory.shift();
+ const last=[...state.chat].reverse().find(m=>m.w==="bot");if(last)lastTutorReply=last.t;
+ if(welcomeBack)addChatBubble("Qaytganingiz bilan, "+n+"! 👋 Suhbatni to‘xtagan joyidan davom ettiramiz. (Yangidan boshlash uchun «Suhbatni yangilash» tugmasini bosing.)","bot");
+}
+function resetChat(){state.chat=[];save();restoreChat(false)}
+function speakLastReply(){if(!("speechSynthesis" in window)){document.getElementById("speechStatus").textContent="Bu brauzer ovoz chiqarib o‘qishni qo‘llamaydi.";return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(lastTutorReply);applyPersonaSpeech(u,currentPersona,0.92);speechSynthesis.speak(u)}
+function startSpeechInput(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){document.getElementById("speechStatus").textContent="Ovozli kiritish bu brauzerda qo‘llanmaydi. Matn yozib yuboring.";return}const r=new SR();r.lang="en-US";r.onresult=e=>{document.getElementById("chatInput").value=e.results[0][0].transcript;document.getElementById("speechStatus").textContent="Ovoz matnga aylantirildi. Yuborish tugmasini bosing."};r.onerror=()=>document.getElementById("speechStatus").textContent="Mikrofon ishlamadi. Ruxsatlarni tekshiring yoki matn yozing.";try{r.start();document.getElementById("speechStatus").textContent="Tinglayapman... Inglizcha gapiring."}catch(e){document.getElementById("speechStatus").textContent="Mikrofonni qayta bosib ko‘ring."}}
+
+/* ---------- Jonli ovozli suhbat ---------- */
+let voiceRecognition=null,voiceModeOpen=false,voiceActive=false,voiceState="idle",voiceSpeaking=false,voiceAbort=null,voiceQueue=[],streamDone=true,voiceTurn=0,enVoice=null,voiceRestartT=null;
+const $=id=>document.getElementById(id);
+function pickVoice(){if(!("speechSynthesis" in window))return;const vs=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang));enVoice=vs.find(v=>/Google US English|Samantha|Aria|Jenny|Natural|Neural/i.test(v.name))||vs.find(v=>/en[-_]US/i.test(v.lang))||vs[0]||null}
+if("speechSynthesis" in window){speechSynthesis.onvoiceschanged=pickVoice;pickVoice()}
+function setVS(t){$("voiceState").textContent=t}
+function setOrb(c){$("voiceOrb").className="voice-orb"+(c?" "+c:"")}
+function openVoiceMode(){
+ const box=$("voiceMode");box.classList.add("open");box.setAttribute("aria-hidden","false");voiceModeOpen=true;voiceActive=false;voiceState="idle";
+ syncPersonaLabels();
+ setVS("Boshlash uchun mikrofonni bosing");setOrb("");$("voiceMic").classList.remove("active");updateTeacherUI();
+ $("voiceCaption").textContent="Hello, "+user.name+"! Let's practice English together.";
+ $("voiceTranslation").textContent="Salom, "+user.name+"! Keling, ingliz tilini birga mashq qilamiz.";
+}
+function closeVoiceMode(){endVoice();if(user)restoreChat(false);const box=$("voiceMode");if(box){box.classList.remove("open");box.setAttribute("aria-hidden","true")}}
+function endVoice(){
+ teacherActive=false;tTurn++;voiceActive=false;voiceModeOpen=false;voiceState="idle";voiceTurn++;
+ if(voiceAbort){try{voiceAbort.abort()}catch(e){}voiceAbort=null}
+ voiceQueue=[];voiceSpeaking=false;streamDone=true;stopRec();
+ if("speechSynthesis" in window)speechSynthesis.cancel();
+ setOrb("");const m=$("voiceMic");if(m)m.classList.remove("active");
+}
+function toggleVoiceSettings(){$("voiceSettings").classList.toggle("hidden")}
+function voiceMicAction(){
+ if(voiceActive){endVoice();voiceModeOpen=true;setVS("To‘xtatildi. Qayta boshlash uchun mikrofonni bosing");return}
+ const mode=$("voiceModeSel").value;
+ if(mode==="teacher"){teacherStart();return}
+ if(mode==="ielts"&&!getAiUrl()){setVS("IELTS rejimi uchun AI server kerak. AI suhbat bo‘limiga server manzilini kiriting.");return}
+ voiceActive=true;$("voiceMic").classList.add("active");
+ if(mode==="ielts"){aiHistory=[];handleTurn("Hello, I am ready. Please begin the IELTS Speaking test.",true)}else goListening();
+}
+function recWanted(){return voiceState==="listening"||(voiceState==="speaking"&&$("voiceInterrupt").checked)}
+function startRec(){
+ if(!voiceActive||voiceRecognition)return;
+ const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+ if(!SR){setVS("Ovozli suhbat uchun Chrome brauzeridan foydalaning.");voiceActive=false;$("voiceMic").classList.remove("active");return}
+ const r=new SR();voiceRecognition=r;r.lang="en-US";r.continuous=true;r.interimResults=true;r.maxAlternatives=3;
+ r.onresult=onRecResult;
+ r.onerror=e=>{if(e.error==="not-allowed"||e.error==="service-not-allowed"){voiceActive=false;$("voiceMic").classList.remove("active");setOrb("");setVS("Mikrofon ruxsati berilmagan. Brauzer sozlamasidan ruxsat bering.")}};
+ r.onend=()=>{if(voiceRecognition===r)voiceRecognition=null;if(voiceActive&&recWanted()){clearTimeout(voiceRestartT);voiceRestartT=setTimeout(startRec,250)}};
+ try{r.start()}catch(e){voiceRecognition=null}
+}
+function stopRec(){clearTimeout(voiceRestartT);if(voiceRecognition){const r=voiceRecognition;voiceRecognition=null;r.onend=null;r.onresult=null;try{r.abort()}catch(e){}}}
+function goListening(){if(!voiceActive)return;voiceState="listening";setOrb("listening");setVS("Tinglayapman... Inglizcha gapiring.");startRec()}
+function onRecResult(e){
+ if(teacherActive){
+  if(voiceState!=="listening")return;
+  let interim="",alts=[];
+  for(let i=e.resultIndex;i<e.results.length;i++){const R=e.results[i];if(R.isFinal){for(let k=0;k<R.length;k++)alts.push(R[k].transcript)}else interim+=R[0].transcript}
+  if(alts.length)teacherHeard(alts);else if(interim)setVS("Eshitdim: "+interim);
+  return;
+ }
+ let interim="",fin="";
+ for(let i=e.resultIndex;i<e.results.length;i++){const t=e.results[i][0].transcript;if(e.results[i].isFinal)fin+=t;else interim+=t}
+ const shown=(fin||interim).trim();
+ if(voiceState==="speaking"){if(shown.split(/\s+/).length>=2)interruptAI();else return}
+ if(voiceState!=="listening")return;
+ if(shown)$("voiceCaption").textContent="You: "+shown;
+ if(fin.trim())handleTurn(fin.trim(),false);
+}
+function interruptAI(){
+ voiceTurn++;if(voiceAbort){try{voiceAbort.abort()}catch(e){}voiceAbort=null}
+ voiceQueue=[];voiceSpeaking=false;streamDone=true;speechSynthesis.cancel();
+ voiceState="listening";setOrb("listening");setVS("Tinglayapman...");
+}
+function enqueue(s){if(!s)return;voiceQueue.push(s);if(!voiceSpeaking)speakNext()}
+function speakNext(){
+ if(!voiceActive)return;
+ const s=voiceQueue.shift();
+ if(!s){voiceSpeaking=false;if(streamDone)afterSpeech();return}
+ voiceSpeaking=true;voiceState="speaking";setOrb("speaking");setVS("Inglizcha javobni tinglang ("+PERSONAS[currentPersona].name+")");
+ if($("voiceInterrupt").checked)startRec();else stopRec();
+ const my=voiceTurn,u=new SpeechSynthesisUtterance(s);
+ applyPersonaSpeech(u,currentPersona,Number($("voiceRate").value)||0.9);
+ u.onend=u.onerror=()=>{if(my===voiceTurn)speakNext()};
+ speechSynthesis.speak(u);
+}
+function afterSpeech(){
+ if(!voiceActive)return;
+ if($("voiceAutoListen").checked)goListening();
+ else{voiceActive=false;voiceState="idle";setOrb("");$("voiceMic").classList.remove("active");setVS("Davom etish uchun mikrofonni bosing")}
+}
+async function handleTurn(text,hidden){
+ const my=++voiceTurn;voiceState="thinking";stopRec();setOrb("");setVS("Javob tayyorlanmoqda...");
+ voiceQueue=[];voiceSpeaking=false;streamDone=false;
+ if(!hidden)$("voiceCaption").textContent="You: "+text;
+ $("voiceTranslation").textContent="";
+ const mode=$("voiceModeSel").value,url=getAiUrl(),ctrl=new AbortController();voiceAbort=ctrl;
+ const history=aiHistory.concat([{role:"user",content:text}]).slice(-20);
+ let acc="",spoken=0,en="",uz="";
+ const alive=()=>my===voiceTurn&&voiceActive;
+ const feed=final=>{
+  const m=acc.search(/\n-{3,}/);
+  const raw=(m>=0?acc.slice(0,m):acc).replace(/\n-{1,2}$/,"");
+  en=raw.trim();uz=m>=0?acc.slice(m).replace(/^\n-{3,}\s*/,"").trim():"";
+  const done=m>=0||final;
+  for(;;){const mm=raw.slice(spoken).match(/^([\s\S]*?[.!?]+["')\]]*)\s+/);if(!mm)break;enqueue(mm[1].trim());spoken+=mm[0].length}
+  if(done&&raw.slice(spoken).trim()){enqueue(raw.slice(spoken).trim());spoken=raw.length}
+  $("voiceCaption").textContent=en;$("voiceTranslation").textContent=uz;
+ };
+ try{
+  if(url){
+   const res=await fetch(url.replace(/\/+$/,"")+"-stream",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:user.name,mode,persona:currentPersona,profile:getProfileSummaryText(),messages:history}),signal:ctrl.signal});
+   if(!res.ok||!res.body)throw new Error("HTTP "+res.status);
+   const reader=res.body.getReader(),dec=new TextDecoder();let buf="";
+   for(;;){
+    const {done,value}=await reader.read();if(done)break;if(!alive())return;
+    buf+=dec.decode(value,{stream:true}).replace(/\r\n/g,"\n");let i;
+    while((i=buf.indexOf("\n\n"))>=0){
+     const line=buf.slice(0,i).trim();buf=buf.slice(i+2);
+     if(!line.startsWith("data:"))continue;const d=line.slice(5).trim();if(d==="[DONE]")continue;
+     let j=null;try{j=JSON.parse(d)}catch(er){}
+     if(j&&j.error)throw new Error(j.error);
+     if(j&&j.t){acc+=j.t;feed(false)}
+    }
+   }
+   if(!alive())return;feed(true);
+  }else{
+   const [reply,u2]=tutorReplyN(text);acc=reply+"\n---\n"+u2;feed(true);
+  }
+  aiHistory=history.concat([{role:"assistant",content:en}]).slice(-20);lastTutorReply=en;
+  if(mode==="free"){logChat("user",text);logChat("bot",en,uz)}
+  streamDone=true;voiceAbort=null;
+  if(!voiceSpeaking&&voiceQueue.length===0)afterSpeech();
+ }catch(err){
+  if(!alive())return;streamDone=true;voiceAbort=null;
+  setVS("AI serverga ulanib bo‘lmadi: "+err.message);
+  if(!voiceSpeaking)setTimeout(()=>{if(alive()&&voiceState==="thinking")goListening()},2000);
+ }
+}
+
+
+/* ---------- Ustoz rejimi: noldan o'rgatish, talaffuzni tekshirish ---------- */
+const TEACH_UNITS=[
+{t:"1-dars: Salomlashish",intro:"Birinchi dars: salomlashish. Men inglizcha ibora aytaman, siz takrorlaysiz.",items:[
+["Hello","Salom","xelou"],["Good morning","Xayrli tong","gud mo'ning"],["Good evening","Xayrli kech","gud ivning"],["Goodbye","Xayr","gudbay"],["Thank you","Rahmat","senk yu"],["Please","Iltimos","pliz"],["Sorry","Kechirasiz","sori"],["Yes","Ha","yes"],["No","Yo'q","nou"]]},
+{t:"2-dars: Tanishish",intro:"Ikkinchi dars: o'zingizni tanishtirish.",items:[
+["My name is *","Mening ismim ...","may neym iz ..."],["Nice to meet you","Tanishganimdan xursandman","nays tu mit yu"],["How are you","Ahvolingiz qanday?","xau a yu"],["I am fine thank you","Men yaxshiman, rahmat","ay em fayn, senk yu"],["I am from Uzbekistan","Men O'zbekistondanman","ay em from uzbekistan"],["I am a student","Men talabaman","ay em e styudent"]]},
+{t:"3-dars: Sonlar",intro:"Uchinchi dars: bir dan o'n gacha sonlar.",items:[
+["One","Bir","uan"],["Two","Ikki","tu"],["Three","Uch","sri"],["Four","To'rt","for"],["Five","Besh","fayv"],["Six","Olti","siks"],["Seven","Yetti","sevin"],["Eight","Sakkiz","eyt"],["Nine","To'qqiz","nayn"],["Ten","O'n","ten"]]},
+{t:"4-dars: Savollar va kundalik gaplar",intro:"To'rtinchi dars: oddiy savollar va gaplar.",items:[
+["What is your name","Ismingiz nima?","uot iz yor neym"],["Where are you from","Qayerdansiz?","uer a yu from"],["I study English","Men ingliz tilini o'rganaman","ay stadi inglish"],["I like football","Men futbolni yoqtiraman","ay layk futbol"],["This is my mother","Bu mening onam","dis iz may mader"],["This is my family","Bu mening oilam","dis iz may femili"]]}
+];
+const TEACH_STEPS=TEACH_UNITS.flatMap(u=>u.items.map((it,i)=>({en:it[0],uz:it[1],say:it[2],intro:i===0?u.intro:"",unit:u.t})));
+const WORD_HINT={th:"",thank:"senk — tilni tishlar orasiga qo'yib ayting",three:"sri — tilni tishlar orasiga qo'yib ayting",this:"dis — tilni tishlar orasiga qo'yib, ovozli ayting",mother:"mader",hello:"xelou",good:"gud",morning:"mo'ning",evening:"ivning",goodbye:"gudbay",please:"pliz",sorry:"sori",yes:"yes",no:"nou",name:"neym",nice:"nays",meet:"mit — i cho'ziq",you:"yu",how:"xau",are:"a",fine:"fayn",from:"from",where:"uer",what:"uot",your:"yor",student:"styudent",like:"layk",football:"futbol",study:"stadi",english:"inglish",one:"uan",two:"tu",four:"for",five:"fayv",six:"siks",seven:"sevin",eight:"eyt",nine:"nayn",ten:"ten",am:"em",my:"may",is:"iz",i:"ay",family:"femili",uzbekistan:"uzbekistan"};
+let teacherActive=false,tIdx=0,tTries=0,tTurn=0,uzVoice=null,tPoints=0;
+function pickUzVoice(){if(!("speechSynthesis" in window))return;uzVoice=speechSynthesis.getVoices().find(v=>/^uz/i.test(v.lang))||null}
+if("speechSynthesis" in window){const o=speechSynthesis.onvoiceschanged;speechSynthesis.onvoiceschanged=()=>{if(o)o();pickUzVoice()};pickUzVoice()}
+function normTokens(x){
+ const num={"0":"zero","1":"one","2":"two","3":"three","4":"four","5":"five","6":"six","7":"seven","8":"eight","9":"nine","10":"ten"};
+ return x.toLowerCase().replace(/[’`]/g,"'").replace(/i'm/g,"i am").replace(/you're/g,"you are").replace(/[^a-z0-9' *]/g," ").replace(/'/g,"").split(/\s+/).filter(Boolean).map(w=>num[w]||w);
+}
+function compareTokens(T,H){
+ const n=T.length,m=H.length,ok=(a,b)=>a==="*"||a===b;
+ const dp=Array.from({length:n+1},()=>new Array(m+1).fill(0));
+ for(let i=1;i<=n;i++)for(let j=1;j<=m;j++)dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1],dp[i-1][j-1]+(ok(T[i-1],H[j-1])?1:0));
+ const mt=new Set(),mh=new Set();let i=n,j=m;
+ while(i>0&&j>0){if(ok(T[i-1],H[j-1])&&dp[i][j]===dp[i-1][j-1]+1){mt.add(i-1);mh.add(j-1);i--;j--}else if(dp[i-1][j]>=dp[i][j-1])i--;else j--}
+ const missing=T.map((w,k)=>k).filter(k=>!mt.has(k)),extra=H.map((w,k)=>k).filter(k=>!mh.has(k));
+ return {ok:missing.length===0&&extra.length<=1,missing:missing.map(k=>T[k]),extra:extra.map(k=>H[k]),score:mt.size-extra.length*0.1};
+}
+function lev(a,b){const d=[];for(let i=0;i<=a.length;i++){d[i]=[i];for(let j=1;j<=b.length;j++)d[i][j]=i?0:j}for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[a.length][b.length]}
+function phraseEn(st){return st.en.replace("*",user?user.name:"Anvar")}
+function speakSeq(segs,done){
+ if(!("speechSynthesis" in window)){if(done)done();return}
+ stopRec();voiceState="tspeaking";setOrb("speaking");speechSynthesis.cancel();
+ const list=segs.filter(s=>s.lang!=="uz"||uzVoice),my=++tTurn;let k=0;
+ (function next(){
+  if(my!==tTurn||!voiceActive)return;
+  if(k>=list.length){if(done)done();return}
+  const s=list[k++],u=new SpeechSynthesisUtterance(s.t);
+  if(s.lang==="uz"){u.lang=uzVoice.lang;u.voice=uzVoice;u.rate=s.rate||0.9}
+  else{applyPersonaSpeech(u,currentPersona,s.rate||0.9)}
+  u.onend=u.onerror=next;speechSynthesis.speak(u);
+ })();
+}
+function tShow(en,uzText){$("voiceCaption").textContent=en;$("voiceTranslation").textContent=uzText||""}
+function tListen(){
+ if(!voiceActive||!teacherActive)return;
+ voiceState="listening";setOrb("listening");
+ setVS("Qadam "+(tIdx+1)+"/"+TEACH_STEPS.length+" · Endi siz ayting...");startRec();
+}
+function teacherStart(){
+ teacherActive=true;voiceActive=true;$("voiceMic").classList.add("active");
+ tIdx=Math.min(state.teacherIdx||0,TEACH_STEPS.length);if(tIdx>=TEACH_STEPS.length)tIdx=0;
+ const resume=tIdx>0;
+ const p=PERSONAS[currentPersona]||PERSONAS.kind;
+ const hi=resume?"Qaytganingiz bilan, "+user.name+"! Oxirgi to'xtagan joyingizdan davom etamiz: "+(tIdx+1)+"-qadam.":"Salom, "+user.name+"! Men sizning "+p.name.toLowerCase()+" ingliz tili ustozingizman. Noldan boshlaymiz. Men aytaman, siz takrorlaysiz. To'g'ri aytmaguningizcha keyingisiga o'tmaymiz.";
+ const hello=(resume?"Welcome back, ":"Hello, ")+user.name+"!";
+ const note=uzVoice?"":"\n(Brauzeringizda o'zbekcha ovoz yo'q: o'zbekcha izoh ekranda yoziladi, inglizcha gaplar ovozda eshitiladi.)";
+ tShow(hello,hi+note);
+ speakSeq([{lang:"uz",t:hi},{lang:"en",t:hello}],()=>teacherPresent(true));
+}
+function teacherPresent(withIntro){
+ if(!voiceActive||!teacherActive)return;
+ const st=TEACH_STEPS[tIdx];if(!st)return teacherFinish();
+ tTries=0;const en=phraseEn(st);
+ const uzTxt=(withIntro&&st.intro?st.intro+"\n":"")+"«"+st.uz.replace("...",user.name)+"»\nO'qilishi: "+st.say.replace("...",user.name);
+ tShow(en,uzTxt);setVS("Qadam "+(tIdx+1)+"/"+TEACH_STEPS.length+" · Eshiting");
+ const segs=[];if(withIntro&&st.intro)segs.push({lang:"uz",t:st.intro});
+ segs.push({lang:"uz",t:"Yangi ibora: "+st.uz.replace("...",user.name)+". Inglizcha:"},{lang:"en",t:en,rate:0.75},{lang:"uz",t:"Endi siz ayting."});
+ speakSeq(segs,tListen);
+}
+function teacherHeard(alts){
+ if(voiceState!=="listening")return;
+ stopRec();voiceState="checking";
+ const st=TEACH_STEPS[tIdx],T=normTokens(st.en);let best=null,bestH="";
+ alts.forEach(a=>{const H=normTokens(a),r=compareTokens(T,H);r.H=H;if(!best||r.score>best.score){best=r;bestH=a}});
+ const en=phraseEn(st);
+ const p=PERSONAS[currentPersona]||PERSONAS.kind;
+ if(best.ok){
+  const pr=p.praise[tIdx%p.praise.length];
+  tPoints=2;state.points+=tPoints;tIdx++;state.teacherIdx=tIdx;save();
+  tShow("✅ "+bestH,pr+" Keyingisiga o'tamiz.");setVS("To'g'ri!");
+  speakSeq([{lang:"uz",t:pr}],()=>setTimeout(()=>teacherPresent(true),300));
+  return;
+ }
+ tTries++;
+ const sc=p.scold[(tTries-1)%p.scold.length];
+ let msg=sc+"\nSiz «"+bestH+"» dedingiz.";const hints=[];
+ const heardLeft=best.extra.slice();
+ best.missing.forEach(w=>{
+  let near="";if(heardLeft.length){let bi=0,bd=99;heardLeft.forEach((h,k)=>{const d=lev(h,w);if(d<bd){bd=d;bi=k}});near=heardLeft.splice(bi,1)[0]}
+  hints.push((near?"«"+near+"» emas, ":"")+"«"+w+"»"+(WORD_HINT[w]?" — o'qilishi: "+WORD_HINT[w]:""));
+ });
+ if(!bestH.trim()||!best.H.length)msg="Hech narsa eshitmadim. Mikrofonga yaqinroq va aniqroq ayting.";
+ else if(best.missing.length)msg+="\nXato so'zlar:\n• "+hints.join("\n• ");
+ else msg+="\nOrtiqcha so'z qo'shildi. Faqat «"+en+"» deb ayting.";
+ msg+="\nTo'g'ri: «"+en+"» — o'qilishi: "+st.say.replace("...",user.name);
+ if(tTries>=3)msg+="\nSekin, bo'g'inlab ayting va so'zlarni ketma-ket tez aytmang. Qiyin bo'lsa, ⏭ tugmasi bilan o'tkazib yuborishingiz mumkin.";
+ tShow(en,msg);setVS("Qayta urinib ko'ring ("+tTries+"-urinish)");
+ const segs=[{lang:"uz",t:best.missing.length?"Xato bor. To'g'ri aytilishini eshiting.":"Qaytadan ayting."},{lang:"en",t:en,rate:0.65},{lang:"uz",t:"Endi o'zingiz ayting."}];
+ speakSeq(segs,tListen);
+}
+function teacherReset(){
+ if(!confirm("Ustozni boshidan boshlaysizmi? Hozirgi joyingiz o‘chadi."))return;
+ state.teacherIdx=0;tIdx=0;save();if(teacherActive){endVoice();voiceModeOpen=true}
+ setVS("Boshidan boshlash uchun mikrofonni bosing");renderContinue();
+}
+function teacherRepeat(){if(!teacherActive||!voiceActive)return;teacherPresent(false)}
+function teacherSkip(){if(!teacherActive||!voiceActive)return;tIdx++;state.teacherIdx=tIdx;save();teacherPresent(true)}
+function teacherFinish(){
+ const t="Tabriklayman, "+user.name+"! Siz barcha boshlang'ich darslarni tugatdingiz. Mikrofonni bosib, yana boshidan takrorlashingiz mumkin.";
+ tShow("Congratulations!",t);state.teacherIdx=0;save();
+ speakSeq([{lang:"uz",t:t},{lang:"en",t:"Congratulations, "+user.name+"!"}],()=>{endVoice();voiceModeOpen=true;setVS("Tugadi. Qayta boshlash uchun mikrofonni bosing")});
+}
+function updateTeacherUI(){const on=$("voiceModeSel").value==="teacher";["voiceRepeat","voiceSkip"].forEach(id=>$(id).classList.toggle("hidden",!on))}
+
+function loadPronunciation(){
+ const val=document.getElementById("pronunciationSelect").value;
+ const parts=val.split(" — ");
+ document.getElementById("pronunciationTarget").textContent=parts[0];
+ document.getElementById("pronunciationTranslation").textContent=parts[1]||"";
+ document.getElementById("pronunciationHeard").textContent="Mikrofon tugmasini bosib, inglizcha gapni ayting.";
+}
+function playPronunciation(){
+ if(!("speechSynthesis" in window)){document.getElementById("pronunciationStatus").textContent="Bu brauzer ovoz chiqarib o‘qishni qo‘llamaydi.";return}
+ speechSynthesis.cancel();
+ const u=new SpeechSynthesisUtterance(document.getElementById("pronunciationTarget").textContent);
+ applyPersonaSpeech(u,currentPersona,0.85);
+ speechSynthesis.speak(u);
+ document.getElementById("pronunciationStatus").textContent="Talaffuz eshittirilmoqda ("+PERSONAS[currentPersona].name+"). Diqqat bilan tinglang.";
+}
+function recordPronunciation(){
+ const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+ if(!SR){document.getElementById("pronunciationStatus").textContent="Ovozli tanish bu brauzerda qo‘llanmaydi. Chrome brauzerida sinab ko‘ring yoki gapni o‘zingiz takrorlang.";return}
+ const r=new SR();r.lang="en-US";r.interimResults=false;r.maxAlternatives=1;
+ document.getElementById("pronunciationStatus").textContent="Tinglayapman... Tanlangan inglizcha gapni ayting.";
+ r.onresult=e=>{
+  const heard=e.results[0][0].transcript;
+  const target=document.getElementById("pronunciationTarget").textContent;
+  const clean=s=>s.toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim();
+  const matched=clean(heard)===clean(target);
+  document.getElementById("pronunciationHeard").innerHTML="<b>Siz aytdingiz:</b> "+heard+"<br><br>"+(matched?"✅ Gap mos keldi! Juda yaxshi!":"🔁 Yana bir marta tinglab, takrorlab ko‘ring.");
+  document.getElementById("pronunciationStatus").textContent="Natija nutqni tanish orqali olindi. Bu talaffuzni professional baholash emas.";
+ };
+ r.onerror=()=>document.getElementById("pronunciationStatus").textContent="Mikrofon ishlamadi. Brauzer sozlamalarida mikrofon ruxsatini tekshiring.";
+ try{r.start()}catch(e){document.getElementById("pronunciationStatus").textContent="Mikrofonni qayta bosib ko‘ring."}
+}
+function resetProgress(){if(confirm("Barcha natijalarni o‘chirishni xohlaysizmi?")){state=defaultState();save();renderLessons();renderPlan();restoreChat(false);renderContinue()}}
+window.addEventListener("DOMContentLoaded",function(){
+ syncPersonaLabels();
+ let u=null;try{u=JSON.parse(lsGet("aep_user")||"null")}catch(e){}
+ if(u&&typeof u.name==="string"&&u.name.length>=2){user={name:u.name};startApp(false)}else{updateStats();showLogin()}
+});
+</script>
+
+<!-- 1. Kirish oynasi -->
+<div id="loginBox" class="login-box">
+  <div class="login-card">
+    <div class="logo" style="margin:0 auto 14px">A</div>
+    <h2 style="margin:0 0 6px">ANVAR ENGLISH PRO</h2>
+    <p class="muted" style="margin:0 0 16px">Sizni qanday chaqiray? Ismingizni yozing, so‘ng 7 ta qisqa savol orqali shaxsiy rejangizni tuzamiz.</p>
+    <input id="loginName" type="text" maxlength="30" autocomplete="given-name" placeholder="Ismingizni kiriting..." onkeydown="if(event.key==='Enter')login()">
+    <div id="loginError" style="color:var(--red);font-size:13px;min-height:20px;text-align:left"></div>
+    <button class="primary" style="width:100%;padding:13px" onclick="login()">Davom etish →</button>
+    <p class="muted" style="font-size:11px;margin:12px 0 0">Barcha natijalaringiz qurilmada avtomatik saqlanadi.</p>
+  </div>
+</div>
+<style>
+.login-box{position:fixed;inset:0;z-index:10000;background:radial-gradient(circle at 80% 0,#193653,#0b1220 60%);display:none;align-items:center;justify-content:center;padding:18px}
+.login-box.open{display:flex}
+.login-card{width:100%;max-width:390px;background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:28px;text-align:center}
+.login-card input{display:block;width:100%;margin:0 0 10px;padding:13px;border-radius:12px;border:1px solid var(--line);background:#0d192a;color:#fff;font:inherit}
+</style>
+
+<!-- 2. goprep.gg/uz/quiz uslubidagi 7 ta savolli onboarding oynasi -->
+<div id="onboardingModal" class="ob-modal" aria-hidden="true">
+  <div class="ob-wrap">
+    <div class="ob-top">
+      <button type="button" id="obBackBtn" class="ob-back" onclick="obPrev()" aria-label="Orqaga">←</button>
+      <div class="ob-prog-box">
+        <div class="ob-prog"><i id="obBarFill"></i></div>
+      </div>
+      <span id="obStepCount" class="ob-count">1 / 7</span>
+    </div>
+
+    <div class="ob-body">
+      <h2 id="obTitle">Ingliz tilini nima maqsadda o‘rganmoqchisiz?</h2>
+      <p id="obSub" class="muted">Shunga qarab sizga mos dars va suhbat mavzularini tanlaymiz</p>
+      <div id="obOptions" class="ob-options"></div>
+    </div>
+
+    <div class="ob-foot">
+      <button type="button" id="obNextBtn" class="primary ob-next" onclick="obNext()" disabled>Davom etish</button>
+    </div>
+  </div>
+</div>
+<style>
+.ob-modal{position:fixed;inset:0;z-index:10002;background:#0b1220;display:none;align-items:center;justify-content:center;padding:16px;overflow:auto}
+.ob-modal.open{display:flex}
+.ob-wrap{width:100%;max-width:460px;min-height:min(640px,92vh);background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:22px;display:flex;flex-direction:column}
+.ob-top{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.ob-back{width:38px;height:38px;border-radius:12px;background:#1a2a42;color:#fff;font-size:18px;flex:0 0 38px}
+.ob-prog-box{flex:1}
+.ob-prog{height:8px;background:#20314b;border-radius:99px;overflow:hidden}
+.ob-prog i{display:block;height:100%;width:14%;background:linear-gradient(90deg,var(--green),var(--blue));border-radius:99px;transition:width .25s ease}
+.ob-count{font-size:13px;font-weight:700;color:var(--muted);min-width:38px;text-align:right}
+.ob-body{flex:1}
+.ob-body h2{margin:0 0 6px;font-size:22px;line-height:1.25}
+.ob-body p{margin:0 0 18px;font-size:13.5px}
+.ob-options{display:grid;gap:10px}
+.ob-opt{display:flex;align-items:center;gap:13px;width:100%;text-align:left;background:#162338;border:1.5px solid var(--line);border-radius:16px;padding:13px 14px;color:var(--text);transition:.18s}
+.ob-opt:hover{border-color:#44628c;background:#1a2b44}
+.ob-opt.selected{border-color:var(--green);background:#193142;box-shadow:0 0 0 1px var(--green)}
+.ob-ico{width:42px;height:42px;border-radius:13px;background:#0e192b;display:grid;place-items:center;font-size:20px;flex:0 0 42px}
+.ob-txt{flex:1;min-width:0}
+.ob-txt b{display:block;font-size:15px;margin-bottom:2px}
+.ob-txt small{display:block;color:var(--muted);font-size:12px;line-height:1.35}
+.ob-check{width:24px;height:24px;border-radius:50%;border:1.5px solid #3c5274;display:grid;place-items:center;font-size:13px;font-weight:900;color:#071526;flex:0 0 24px}
+.ob-opt.selected .ob-check{background:var(--green);border-color:var(--green)}
+.ob-foot{margin-top:18px;padding-top:10px}
+.ob-next{width:100%;padding:14px;font-size:15px;border-radius:14px;transition:.2s}
+.ob-next:disabled{opacity:.42;cursor:not-allowed;filter:grayscale(.6)}
+</style>
+
+<!-- 3. AI Repetitor tanlash modali (4 xil xarakter) -->
+<div id="personaModal" class="persona-modal" aria-hidden="true">
+  <div class="persona-card-wrap">
+    <div class="persona-head">
+      <h2>AI repetitoringizni tanlang</h2>
+      <p class="muted">Ovozini eshitish uchun xarakterni bosing</p>
+    </div>
+
+    <div class="persona-preview">
+      <div id="personaFace" class="p-face kind"><span></span><i></i><span></span></div>
+      <div id="personaSampleText" class="muted" style="font-size:13px;margin-top:12px">Repetitorni tanlang, u bir-ikki so‘z aytadi</div>
+    </div>
+
+    <div id="personaList" class="persona-list"></div>
+
+    <button class="primary" style="width:100%;margin-top:14px;padding:13px" onclick="confirmPersona()">Davom etish</button>
+  </div>
+</div>
+<style>
+.persona-modal{position:fixed;inset:0;z-index:10003;background:rgba(7,13,24,.94);display:none;align-items:center;justify-content:center;padding:16px;overflow:auto}
+.persona-modal.open{display:flex}
+.persona-card-wrap{width:100%;max-width:420px;background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:22px}
+.persona-head h2{margin:0 0 4px;font-size:21px}
+.persona-head p{margin:0 0 14px;font-size:13px}
+.persona-preview{background:#0d192a;border:1px solid var(--line);border-radius:18px;padding:22px 16px;text-align:center;margin-bottom:14px}
+.p-face{width:106px;height:56px;border-radius:30px;margin:0 auto;background:#152236;border:4px solid #4ea8ff;box-shadow:0 0 18px #4ea8ff55;display:flex;align-items:center;justify-content:center;gap:14px;transition:.25s}
+.p-face span{width:12px;height:12px;border-radius:50%;background:#eef4ff;display:block}
+.p-face i{width:16px;height:4px;border-radius:4px;background:#eef4ff;display:block;font-style:normal}
+.p-face.angry{border-color:#ff7b29;box-shadow:0 0 18px #ff7b2966}
+.p-face.angry span:first-child{transform:rotate(20deg);border-radius:2px 2px 50% 50%}
+.p-face.angry span:last-child{transform:rotate(-20deg);border-radius:2px 2px 50% 50%}
+.p-face.kind{border-color:#38bdf8;box-shadow:0 0 18px #38bdf866}
+.p-face.sarcastic{border-color:#e879f9;box-shadow:0 0 18px #e879f966}
+.p-face.sarcastic i{transform:rotate(-12deg)}
+.p-face.neutral{border-color:#f87171;box-shadow:0 0 18px #f8717166}
+.persona-list{display:grid;gap:10px}
+.p-item{display:flex;align-items:center;gap:12px;background:#162338;border:1.5px solid var(--line);border-radius:16px;padding:12px 14px;cursor:pointer;text-align:left;transition:.2s}
+.p-item.selected{border-color:var(--green);background:#1b2e47}
+.p-mini{width:46px;height:26px;border-radius:15px;flex:0 0 46px;background:#0e1828;border:2.5px solid #4ea8ff;display:flex;align-items:center;justify-content:center;gap:6px}
+.p-mini span{width:5px;height:5px;border-radius:50%;background:#fff}
+.p-mini i{width:7px;height:2px;background:#fff;display:block}
+.p-mini.angry{border-color:#ff7b29}.p-mini.kind{border-color:#38bdf8}.p-mini.sarcastic{border-color:#e879f9}.p-mini.neutral{border-color:#f87171}
+.p-info{flex:1;min-width:0}
+.p-info b{display:block;font-size:15px;color:#fff}
+.p-info small{display:block;color:var(--muted);font-size:12px;line-height:1.35}
+.p-sound{width:34px;height:34px;border-radius:50%;background:#22344e;color:#fff;display:grid;place-items:center;font-size:15px}
+</style>
+
+<!-- 4. Jonli ovozli suhbat oynasi -->
+<div id="voiceMode" class="voice-mode" aria-hidden="true">
+  <div class="voice-top"><button class="voice-round" onclick="closeVoiceMode()" aria-label="Orqaga">☰</button><div class="voice-live"><span></span> OVOZLI SUHBAT · <b id="voicePersonaLabel">Mehribon</b></div><button class="voice-round" onclick="toggleVoiceSettings()" aria-label="Sozlamalar">☷</button></div>
+  <div class="voice-center">
+    <div id="voiceOrb" class="voice-orb"><div class="voice-orb-glow"></div></div>
+    <div id="voiceState" class="voice-state">Suhbatni boshlash uchun mikrofonni bosing</div>
+    <div id="voiceCaption" class="voice-caption">Hello! Let's practice English together.</div>
+    <div id="voiceTranslation" class="voice-translation">Salom! Keling, ingliz tilini birga mashq qilamiz.</div>
+  </div>
+  <div id="voiceSettings" class="voice-settings hidden">
+    <b>Ovoz sozlamalari</b>
+    <button class="secondary" onclick="openPersonaModal(false)">🎭 Repetitor xarakterini tanlash</button>
+    <button class="secondary" onclick="teacherReset()">↺ Ustozni boshidan boshlash</button>
+    <label>Rejim <select id="voiceModeSel" onchange="updateTeacherUI()"><option value="teacher" selected>Ustoz: noldan o‘rgatish (o‘zbekcha)</option><option value="free">Erkin suhbat</option><option value="ielts">IELTS Speaking imtihoni</option></select></label>
+    <label>Ovoz tezligi <select id="voiceRate"><option value="0.75">Sekin</option><option value="0.9" selected>O‘rtacha</option><option value="1">Tez</option></select></label>
+    <label><input id="voiceAutoListen" type="checkbox" checked> Javobdan keyin avtomatik tinglash</label>
+    <label><input id="voiceInterrupt" type="checkbox"> Gapini bo‘lish (faqat quloqchin bilan)</label>
+  </div>
+  <div class="voice-bottom">
+    <button class="voice-side hidden" id="voiceRepeat" style="left:0" onclick="teacherRepeat()" aria-label="Qayta eshitish">🔁</button><button class="voice-side hidden" id="voiceSkip" style="left:58px" onclick="teacherSkip()" aria-label="O‘tkazib yuborish">⏭</button>
+    <button class="voice-mic" id="voiceMic" onclick="voiceMicAction()">🎙</button>
+    <div class="voice-hint">Gapirish uchun mikrofonni bosing</div>
+    <button class="voice-close" onclick="closeVoiceMode()">✕</button>
+  </div>
+</div>
+<style>
+.voice-mode{position:fixed;inset:0;z-index:9999;background:#000;color:#fff;display:none;flex-direction:column;padding:24px 22px max(22px,env(safe-area-inset-bottom));font-family:Inter,system-ui,sans-serif}
+.voice-mode.open{display:flex}
+.voice-top{display:flex;align-items:center;justify-content:space-between}
+.voice-round{width:54px;height:54px;border-radius:50%;background:#292929;border:1px solid #444;color:white;font-size:25px}
+.voice-live{font-size:11px;letter-spacing:2px;color:#b9c8d8;display:flex;align-items:center;gap:8px}
+.voice-live span{width:8px;height:8px;border-radius:50%;background:#25c66b;box-shadow:0 0 12px #25c66b}
+.voice-center{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;min-height:0}
+.voice-orb{width:min(52vw,260px);height:min(52vw,260px);border-radius:50%;position:relative;overflow:hidden;background:linear-gradient(145deg,#2e63dc 0%,#5388f8 42%,#f0f4ff 66%,#a6c2ff 100%);box-shadow:0 0 55px #315fc966;animation:orbFloat 4s ease-in-out infinite}
+.voice-orb:before{content:"";position:absolute;inset:-25%;background:linear-gradient(155deg,transparent 35%,#fff9 48%,#c5d8ffbb 57%,transparent 68%);animation:orbWave 5s ease-in-out infinite}
+.voice-orb.listening{animation:orbPulse 1.3s ease-in-out infinite}
+.voice-orb.speaking{animation:orbFloat 1.1s ease-in-out infinite;box-shadow:0 0 85px #4f85ffbb}
+.voice-orb-glow{position:absolute;inset:0;border-radius:50%;box-shadow:inset 0 0 28px #fff8}
+@keyframes orbFloat{50%{transform:scale(1.035)}}
+@keyframes orbWave{50%{transform:translate(12%,8%) rotate(12deg)}}
+@keyframes orbPulse{50%{transform:scale(1.09);box-shadow:0 0 90px #2e8bff}}
+.voice-state{margin-top:38px;font-size:16px;color:#dce5f2}
+.voice-caption{margin-top:15px;font-size:19px;font-weight:650;max-width:520px}
+.voice-translation{margin-top:7px;font-size:14px;color:#9aa9bd;max-width:520px;white-space:pre-line;max-height:34vh;overflow:auto;text-align:left}
+.voice-side{position:absolute;width:46px;height:46px;border-radius:50%;background:#292929;color:#fff;border:1px solid #444;font-size:19px}
+.voice-bottom{display:flex;align-items:center;justify-content:center;gap:18px;position:relative;min-height:92px}
+.voice-mic{width:66px;height:66px;border-radius:50%;background:#18b85b;color:white;font-size:28px;box-shadow:0 5px 25px #18b85b55}
+.voice-mic.active{background:#ef4444}
+.voice-close{position:absolute;right:0;width:58px;height:58px;border-radius:50%;background:white;color:#111;font-size:29px}
+.voice-hint{font-size:12px;color:#929292;position:absolute;top:-8px;transform:translateY(-100%)}
+.voice-settings{position:absolute;right:20px;top:90px;background:#242424;border:1px solid #444;border-radius:16px;padding:16px;display:grid;gap:12px;min-width:240px;z-index:2}
+.voice-settings label{display:flex;gap:9px;align-items:center;font-size:13px}
+.voice-settings select{background:#333;color:white;border:1px solid #555;padding:6px;border-radius:8px}
+@media(max-height:600px){.voice-orb{width:32vw;height:32vw}.voice-caption{margin-top:8px}.voice-state{margin-top:12px}}
+</style>
+</body></html>
